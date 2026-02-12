@@ -4,3 +4,14 @@
 # Este arquivo registra todas as execuções bem-sucedidas do sistema.
 # Cada execução gera um bloco de log com timestamp e detalhes das atualizações.
 #
+--------------------------------------------------------------------------------
+[2026-02-12 18:05:55] ================================================================================
+[2026-02-12 18:05:55] INÍCIO DA EXECUÇÃO - Atualização de Estoque Mínimo e Ideal
+[2026-02-12 18:05:55] Filial: 22
+[2026-02-12 18:05:55] ================================================================================
+[2026-02-12 18:05:55] Conectando ao servidor LOCAL: localhost\shopcontrol9
+[2026-02-12 18:05:55] ✅ Conexão estabelecida com sucesso!
+[2026-02-12 18:05:55] Buscando Ordem da Filial 22...
+[2026-02-12 18:05:55] ✅ Ordem da Filial encontrada: 1
+[2026-02-12 18:05:55] Iniciando UPDATE 1: Produtos com média ponderada de vendas...
+[2026-02-12 18:05:55] Conexão com banco de dados encerrada
