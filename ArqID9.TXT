@@ -1,0 +1,10 @@
+<SHOP9>
+<CONEXAO>
+<Tipo></Tipo>
+<Servidor>localhost\shopcontrol9</Servidor>
+<Usuario>sa</Usuario>
+<Senha>Senha123</Senha>
+<Timeout>60</Timeout>
+<Descricao>Normal</Descricao>
+</CONEXAO>
+</SHOP9>

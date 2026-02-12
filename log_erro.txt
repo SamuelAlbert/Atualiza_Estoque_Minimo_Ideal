@@ -1,0 +1,6 @@
+# Log de Erros e Falhas
+# Sistema de Atualização de Estoque Mínimo e Ideal - Shop Control 9
+# 
+# Este arquivo registra todas as falhas e erros durante a execução do sistema.
+# Monitore este arquivo regularmente para identificar problemas.
+#

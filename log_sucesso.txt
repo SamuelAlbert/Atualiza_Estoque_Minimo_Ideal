@@ -1,0 +1,6 @@
+# Log de Execuções Bem-Sucedidas
+# Sistema de Atualização de Estoque Mínimo e Ideal - Shop Control 9
+# 
+# Este arquivo registra todas as execuções bem-sucedidas do sistema.
+# Cada execução gera um bloco de log com timestamp e detalhes das atualizações.
+#
