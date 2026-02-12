@@ -1,0 +1,45 @@
+# Arquivo de desenvolvimento (documentação interna)
+Script_Desenvolvimento_Atualiza_Estoque_Minimo.docx
+
+# Arquivos de log
+log_sucesso.txt
+log_erro.txt
+*.log
+
+# Arquivo de conexão com credenciais sensíveis
+ArqID9.TXT
+
+# Arquivos Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Ambientes virtuais Python
+venv/
+env/
+ENV/
+.venv
+
+# IDEs e Editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Backups
+*.bak
+*.backup
+*.tmp
