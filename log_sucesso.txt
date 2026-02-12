@@ -15,3 +15,40 @@
 [2026-02-12 18:05:55] ✅ Ordem da Filial encontrada: 1
 [2026-02-12 18:05:55] Iniciando UPDATE 1: Produtos com média ponderada de vendas...
 [2026-02-12 18:05:55] Conexão com banco de dados encerrada
+--------------------------------------------------------------------------------
+[2026-02-12 18:09:53] ================================================================================
+[2026-02-12 18:09:53] INÍCIO DA EXECUÇÃO - Atualização de Estoque Mínimo e Ideal
+[2026-02-12 18:09:53] Filial: 22
+[2026-02-12 18:09:53] ================================================================================
+[2026-02-12 18:09:53] Conectando ao servidor LOCAL: localhost\shopcontrol9
+[2026-02-12 18:09:53] ✅ Conexão estabelecida com sucesso!
+[2026-02-12 18:09:53] Buscando Ordem da Filial 22...
+[2026-02-12 18:09:53] ✅ Ordem da Filial encontrada: 1
+[2026-02-12 18:09:53] Iniciando UPDATE 1: Produtos com média ponderada de vendas...
+[2026-02-12 18:09:53] Conexão com banco de dados encerrada
+--------------------------------------------------------------------------------
+[2026-02-12 18:12:54] ================================================================================
+[2026-02-12 18:12:54] INÍCIO DA EXECUÇÃO - Atualização de Estoque Mínimo e Ideal
+[2026-02-12 18:12:54] Filial: 22
+[2026-02-12 18:12:54] ================================================================================
+[2026-02-12 18:12:54] Conectando ao servidor LOCAL: localhost\shopcontrol9
+[2026-02-12 18:12:54] ✅ Conexão estabelecida com sucesso!
+[2026-02-12 18:12:54] Buscando Ordem da Filial 22...
+[2026-02-12 18:12:54] ✅ Ordem da Filial encontrada: 1
+[2026-02-12 18:12:54] Iniciando UPDATE 1: Produtos com média ponderada de vendas...
+[2026-02-12 18:13:05] ✅ UPDATE 1 concluído: 10220 registros atualizados
+[2026-02-12 18:13:05] Iniciando UPDATE 2: Produtos novos (cadastrados há menos de 30 dias)...
+[2026-02-12 18:13:05] ✅ UPDATE 2 concluído: 58 registros atualizados
+[2026-02-12 18:13:05] Iniciando UPDATE 3: Produtos sem movimentação nos últimos 730 dias...
+[2026-02-12 18:13:27] ✅ UPDATE 3 concluído: 13796 registros atualizados
+[2026-02-12 18:13:27] ✅ COMMIT realizado com sucesso
+[2026-02-12 18:13:27] ================================================================================
+[2026-02-12 18:13:27] RESUMO DA EXECUÇÃO:
+[2026-02-12 18:13:27]   - UPDATE 1 (Média ponderada): 10220 produtos atualizados
+[2026-02-12 18:13:27]   - UPDATE 2 (Produtos novos): 58 produtos atualizados
+[2026-02-12 18:13:27]   - UPDATE 3 (Sem movimentação): 13796 produtos atualizados
+[2026-02-12 18:13:27]   - TOTAL GERAL: 24074 produtos atualizados
+[2026-02-12 18:13:27] ✅ EXECUÇÃO CONCLUÍDA COM SUCESSO!
+[2026-02-12 18:13:27] ================================================================================
+--------------------------------------------------------------------------------
+[2026-02-12 18:13:27] Conexão com banco de dados encerrada

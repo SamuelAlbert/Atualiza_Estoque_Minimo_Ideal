@@ -11,3 +11,10 @@
 [2026-02-12 18:05:55] ================================================================================
 --------------------------------------------------------------------------------
 [2026-02-12 18:05:55] ROLLBACK executado - nenhuma alteração foi salva
+[2026-02-12 18:09:53] ❌ ERRO no UPDATE 1: ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near the keyword 'GROUP'. (156) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Statement(s) could not be prepared. (8180)")
+--------------------------------------------------------------------------------
+[2026-02-12 18:09:53] ================================================================================
+[2026-02-12 18:09:53] ❌ FALHA NA EXECUÇÃO: ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near the keyword 'GROUP'. (156) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Statement(s) could not be prepared. (8180)")
+[2026-02-12 18:09:53] ================================================================================
+--------------------------------------------------------------------------------
+[2026-02-12 18:09:53] ROLLBACK executado - nenhuma alteração foi salva

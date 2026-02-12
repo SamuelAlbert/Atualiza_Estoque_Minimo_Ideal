@@ -122,50 +122,12 @@ def executar_update_1(cursor, ordem_filial):
     DECLARE @Data60Dias DATE = DATEADD(DAY, -60, @DataFinal)
     DECLARE @Data90Dias DATE = DATEADD(DAY, -90, @DataFinal)
 
-    UPDATE EA
-    SET 
-        EA.Estoque_Minimo = CASE 
-            WHEN CEILING(
-                (
-                    (
-                        (SUM(CASE 
-                            WHEN M.Data_Passou_Efetivacao_Estoque >= @Data30Dias 
-                                 AND M.Data_Passou_Efetivacao_Estoque < DATEADD(DAY, 1, @DataFinal)
-                            THEN 
-                                CASE 
-                                    WHEN M.Tipo_Operacao IN ('VND', 'VPC', 'VEF') THEN MPS.Quantidade
-                                    ELSE MPS.Quantidade * -1 
-                                END
-                            ELSE 0 
-                        END) / 30.0) * 0.50
-                    ) +
-                    (
-                        (SUM(CASE 
-                            WHEN M.Data_Passou_Efetivacao_Estoque >= @Data60Dias 
-                                 AND M.Data_Passou_Efetivacao_Estoque < @Data30Dias
-                            THEN 
-                                CASE 
-                                    WHEN M.Tipo_Operacao IN ('VND', 'VPC', 'VEF') THEN MPS.Quantidade
-                                    ELSE MPS.Quantidade * -1 
-                                END
-                            ELSE 0 
-                        END) / 30.0) * 0.30
-                    ) +
-                    (
-                        (SUM(CASE 
-                            WHEN M.Data_Passou_Efetivacao_Estoque >= @Data90Dias 
-                                 AND M.Data_Passou_Efetivacao_Estoque < @Data60Dias
-                            THEN 
-                                CASE 
-                                    WHEN M.Tipo_Operacao IN ('VND', 'VPC', 'VEF') THEN MPS.Quantidade
-                                    ELSE MPS.Quantidade * -1 
-                                END
-                            ELSE 0 
-                        END) / 30.0) * 0.20
-                    )
-                ) * 45
-            ) <= 0 THEN EA.Estoque_Minimo  -- Não atualiza se resultado for <= 0
-            ELSE CASE 
+    ;WITH Calculos AS (
+        SELECT
+            PS.Ordem AS ProdOrdem,
+            EA.Ordem_Filial,
+            -- Calculo do Estoque Minimo
+            CASE 
                 WHEN CEILING(
                     (
                         (
@@ -205,7 +167,47 @@ def executar_update_1(cursor, ordem_filial):
                             END) / 30.0) * 0.20
                         )
                     ) * 45
-                ) = 0 THEN 1  -- Se der zero, define como 1
+                ) <= 0 THEN 0
+                WHEN CEILING(
+                    (
+                        (
+                            (SUM(CASE 
+                                WHEN M.Data_Passou_Efetivacao_Estoque >= @Data30Dias 
+                                     AND M.Data_Passou_Efetivacao_Estoque < DATEADD(DAY, 1, @DataFinal)
+                                THEN 
+                                    CASE 
+                                        WHEN M.Tipo_Operacao IN ('VND', 'VPC', 'VEF') THEN MPS.Quantidade
+                                        ELSE MPS.Quantidade * -1 
+                                    END
+                                ELSE 0 
+                            END) / 30.0) * 0.50
+                        ) +
+                        (
+                            (SUM(CASE 
+                                WHEN M.Data_Passou_Efetivacao_Estoque >= @Data60Dias 
+                                     AND M.Data_Passou_Efetivacao_Estoque < @Data30Dias
+                                THEN 
+                                    CASE 
+                                        WHEN M.Tipo_Operacao IN ('VND', 'VPC', 'VEF') THEN MPS.Quantidade
+                                        ELSE MPS.Quantidade * -1 
+                                    END
+                                ELSE 0 
+                            END) / 30.0) * 0.30
+                        ) +
+                        (
+                            (SUM(CASE 
+                                WHEN M.Data_Passou_Efetivacao_Estoque >= @Data90Dias 
+                                     AND M.Data_Passou_Efetivacao_Estoque < @Data60Dias
+                                THEN 
+                                    CASE 
+                                        WHEN M.Tipo_Operacao IN ('VND', 'VPC', 'VEF') THEN MPS.Quantidade
+                                        ELSE MPS.Quantidade * -1 
+                                    END
+                                ELSE 0 
+                            END) / 30.0) * 0.20
+                        )
+                    ) * 45
+                ) = 0 THEN 1
                 ELSE CEILING(
                     (
                         (
@@ -246,51 +248,10 @@ def executar_update_1(cursor, ordem_filial):
                         )
                     ) * 45
                 )
-            END
-        END,
-        EA.Estoque_Ideal = CASE 
-            WHEN CEILING(
-                (
-                    (
-                        (SUM(CASE 
-                            WHEN M.Data_Passou_Efetivacao_Estoque >= @Data30Dias 
-                                 AND M.Data_Passou_Efetivacao_Estoque < DATEADD(DAY, 1, @DataFinal)
-                            THEN 
-                                CASE 
-                                    WHEN M.Tipo_Operacao IN ('VND', 'VPC', 'VEF') THEN MPS.Quantidade
-                                    ELSE MPS.Quantidade * -1 
-                                END
-                            ELSE 0 
-                        END) / 30.0) * 0.50
-                    ) +
-                    (
-                        (SUM(CASE 
-                            WHEN M.Data_Passou_Efetivacao_Estoque >= @Data60Dias 
-                                 AND M.Data_Passou_Efetivacao_Estoque < @Data30Dias
-                            THEN 
-                                CASE 
-                                    WHEN M.Tipo_Operacao IN ('VND', 'VPC', 'VEF') THEN MPS.Quantidade
-                                    ELSE MPS.Quantidade * -1 
-                                END
-                            ELSE 0 
-                        END) / 30.0) * 0.30
-                    ) +
-                    (
-                        (SUM(CASE 
-                            WHEN M.Data_Passou_Efetivacao_Estoque >= @Data90Dias 
-                                 AND M.Data_Passou_Efetivacao_Estoque < @Data60Dias
-                            THEN 
-                                CASE 
-                                    WHEN M.Tipo_Operacao IN ('VND', 'VPC', 'VEF') THEN MPS.Quantidade
-                                    ELSE MPS.Quantidade * -1 
-                                END
-                            ELSE 0 
-                        END) / 30.0) * 0.20
-                    )
-                ) * 45
-            ) <= 0 THEN EA.Estoque_Ideal  -- Não atualiza se resultado for <= 0
-            ELSE CEILING(
-                (
+            END AS Novo_Estoque_Minimo,
+            -- Calculo do Estoque Ideal (Estoque Minimo + 20%)
+            CASE 
+                WHEN CEILING(
                     (
                         (
                             (SUM(CASE 
@@ -329,30 +290,83 @@ def executar_update_1(cursor, ordem_filial):
                             END) / 30.0) * 0.20
                         )
                     ) * 45
-                ) * 1.20  -- Estoque Ideal = Estoque Mínimo + 20%
-            )
+                ) <= 0 THEN 0
+                ELSE CEILING(
+                    (
+                        (
+                            (SUM(CASE 
+                                WHEN M.Data_Passou_Efetivacao_Estoque >= @Data30Dias 
+                                     AND M.Data_Passou_Efetivacao_Estoque < DATEADD(DAY, 1, @DataFinal)
+                                THEN 
+                                    CASE 
+                                        WHEN M.Tipo_Operacao IN ('VND', 'VPC', 'VEF') THEN MPS.Quantidade
+                                        ELSE MPS.Quantidade * -1 
+                                    END
+                                ELSE 0 
+                            END) / 30.0) * 0.50
+                        ) +
+                        (
+                            (SUM(CASE 
+                                WHEN M.Data_Passou_Efetivacao_Estoque >= @Data60Dias 
+                                     AND M.Data_Passou_Efetivacao_Estoque < @Data30Dias
+                                THEN 
+                                    CASE 
+                                        WHEN M.Tipo_Operacao IN ('VND', 'VPC', 'VEF') THEN MPS.Quantidade
+                                        ELSE MPS.Quantidade * -1 
+                                    END
+                                ELSE 0 
+                            END) / 30.0) * 0.30
+                        ) +
+                        (
+                            (SUM(CASE 
+                                WHEN M.Data_Passou_Efetivacao_Estoque >= @Data90Dias 
+                                     AND M.Data_Passou_Efetivacao_Estoque < @Data60Dias
+                                THEN 
+                                    CASE 
+                                        WHEN M.Tipo_Operacao IN ('VND', 'VPC', 'VEF') THEN MPS.Quantidade
+                                        ELSE MPS.Quantidade * -1 
+                                    END
+                                ELSE 0 
+                            END) / 30.0) * 0.20
+                        )
+                    ) * 45 * 1.20
+                )
+            END AS Novo_Estoque_Ideal
+        FROM
+            Estoque_Atual EA
+            INNER JOIN Prod_Serv PS ON PS.Ordem = EA.Ordem_Prod_Serv
+            INNER JOIN Movimento_Prod_Serv MPS ON MPS.Ordem_Prod_Serv = PS.Ordem
+            INNER JOIN Movimento M ON M.Ordem = MPS.Ordem_Movimento
+        WHERE
+            EA.Ordem_Filial = @OrdemFilial
+            AND M.Ordem_Filial = @OrdemFilial
+            AND MPS.Linha_Excluida = 0
+            AND PS.Tipo = 'N'
+            AND PS.Data_Cadastro < DATEADD(DAY, -30, @DataFinal)
+            AND M.Data_Passou_Efetivacao_Estoque >= @Data90Dias
+            AND M.Data_Passou_Efetivacao_Estoque < DATEADD(DAY, 1, @DataFinal)
+            AND M.Data_Passou_Desefetivacao_Estoque IS NULL
+            AND M.Data_Passou_Efetivacao_Estoque IS NOT NULL
+            AND M.Tipo_Operacao IN ('VND', 'VPC', 'VEF', 'DEV', 'CVE')
+        GROUP BY
+            PS.Ordem,
+            EA.Ordem_Filial
+    )
+    UPDATE EA
+    SET 
+        EA.Estoque_Minimo = CASE 
+            WHEN C.Novo_Estoque_Minimo > 0 THEN C.Novo_Estoque_Minimo
+            ELSE EA.Estoque_Minimo
+        END,
+        EA.Estoque_Ideal = CASE 
+            WHEN C.Novo_Estoque_Ideal > 0 THEN C.Novo_Estoque_Ideal
+            ELSE EA.Estoque_Ideal
         END
     FROM
         Estoque_Atual EA
-        INNER JOIN Prod_Serv PS ON PS.Ordem = EA.Ordem_Prod_Serv
-        INNER JOIN Movimento_Prod_Serv MPS ON MPS.Ordem_Prod_Serv = PS.Ordem
-        INNER JOIN Movimento M ON M.Ordem = MPS.Ordem_Movimento
+        INNER JOIN Calculos C ON C.ProdOrdem = EA.Ordem_Prod_Serv AND C.Ordem_Filial = EA.Ordem_Filial
     WHERE
-        EA.Ordem_Filial = @OrdemFilial
-        AND M.Ordem_Filial = @OrdemFilial
-        AND MPS.Linha_Excluida = 0
-        AND PS.Tipo = 'N'
-        AND PS.Data_Cadastro < DATEADD(DAY, -30, @DataFinal)
-        AND M.Data_Passou_Efetivacao_Estoque >= @Data90Dias
-        AND M.Data_Passou_Efetivacao_Estoque < DATEADD(DAY, 1, @DataFinal)
-        AND M.Data_Passou_Desefetivacao_Estoque IS NULL
-        AND M.Data_Passou_Efetivacao_Estoque IS NOT NULL
-        AND M.Tipo_Operacao IN ('VND', 'VPC', 'VEF', 'DEV', 'CVE')
-    GROUP BY
-        EA.Ordem_Prod_Serv,
-        EA.Ordem_Filial,
-        EA.Estoque_Minimo,
-        EA.Estoque_Ideal
+        C.Novo_Estoque_Minimo > 0
     """
     
     try:
