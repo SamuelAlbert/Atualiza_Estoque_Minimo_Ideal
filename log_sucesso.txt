@@ -52,3 +52,1095 @@
 [2026-02-12 18:13:27] ================================================================================
 --------------------------------------------------------------------------------
 [2026-02-12 18:13:27] Conexão com banco de dados encerrada
+--------------------------------------------------------------------------------
+[2026-02-13 03:00:01] ================================================================================
+[2026-02-13 03:00:01] INÍCIO DA EXECUÇÃO - Atualização de Estoque Mínimo e Ideal
+[2026-02-13 03:00:01] Filial: 22
+[2026-02-13 03:00:01] ================================================================================
+[2026-02-13 03:00:01] Conectando ao servidor LOCAL: localhost\shopcontrol9
+[2026-02-13 03:00:01] ✅ Conexão estabelecida com sucesso!
+[2026-02-13 03:00:01] Buscando Ordem da Filial 22...
+[2026-02-13 03:00:01] ✅ Ordem da Filial encontrada: 1
+[2026-02-13 03:00:01] Iniciando UPDATE 1: Produtos com média ponderada de vendas...
+[2026-02-13 03:00:12] ✅ UPDATE 1 concluído: 10100 registros atualizados
+[2026-02-13 03:00:12] Iniciando UPDATE 2: Produtos novos (cadastrados há menos de 30 dias)...
+[2026-02-13 03:00:12] ✅ UPDATE 2 concluído: 57 registros atualizados
+[2026-02-13 03:00:12] Iniciando UPDATE 3: Produtos sem movimentação nos últimos 730 dias...
+[2026-02-13 03:00:32] ✅ UPDATE 3 concluído: 13802 registros atualizados
+[2026-02-13 03:00:32] ✅ COMMIT realizado com sucesso
+[2026-02-13 03:00:32] ================================================================================
+[2026-02-13 03:00:32] RESUMO DA EXECUÇÃO:
+[2026-02-13 03:00:32]   - UPDATE 1 (Média ponderada): 10100 produtos atualizados
+[2026-02-13 03:00:32]   - UPDATE 2 (Produtos novos): 57 produtos atualizados
+[2026-02-13 03:00:32]   - UPDATE 3 (Sem movimentação): 13802 produtos atualizados
+[2026-02-13 03:00:32]   - TOTAL GERAL: 23959 produtos atualizados
+[2026-02-13 03:00:32] ✅ EXECUÇÃO CONCLUÍDA COM SUCESSO!
+[2026-02-13 03:00:32] ================================================================================
+--------------------------------------------------------------------------------
+[2026-02-13 03:00:32] Conexão com banco de dados encerrada
+--------------------------------------------------------------------------------
+[2026-02-14 03:00:01] ================================================================================
+[2026-02-14 03:00:01] INÍCIO DA EXECUÇÃO - Atualização de Estoque Mínimo e Ideal
+[2026-02-14 03:00:01] Filial: 22
+[2026-02-14 03:00:01] ================================================================================
+[2026-02-14 03:00:01] Conectando ao servidor LOCAL: localhost\shopcontrol9
+[2026-02-14 03:00:02] ✅ Conexão estabelecida com sucesso!
+[2026-02-14 03:00:02] Buscando Ordem da Filial 22...
+[2026-02-14 03:00:02] ✅ Ordem da Filial encontrada: 1
+[2026-02-14 03:00:02] Iniciando UPDATE 1: Produtos com média ponderada de vendas...
+[2026-02-14 03:00:12] ✅ UPDATE 1 concluído: 10181 registros atualizados
+[2026-02-14 03:00:12] Iniciando UPDATE 2: Produtos novos (cadastrados há menos de 30 dias)...
+[2026-02-14 03:00:12] ✅ UPDATE 2 concluído: 51 registros atualizados
+[2026-02-14 03:00:12] Iniciando UPDATE 3: Produtos sem movimentação nos últimos 730 dias...
+[2026-02-14 03:00:33] ✅ UPDATE 3 concluído: 13806 registros atualizados
+[2026-02-14 03:00:33] ✅ COMMIT realizado com sucesso
+[2026-02-14 03:00:33] ================================================================================
+[2026-02-14 03:00:33] RESUMO DA EXECUÇÃO:
+[2026-02-14 03:00:33]   - UPDATE 1 (Média ponderada): 10181 produtos atualizados
+[2026-02-14 03:00:33]   - UPDATE 2 (Produtos novos): 51 produtos atualizados
+[2026-02-14 03:00:33]   - UPDATE 3 (Sem movimentação): 13806 produtos atualizados
+[2026-02-14 03:00:33]   - TOTAL GERAL: 24038 produtos atualizados
+[2026-02-14 03:00:33] ✅ EXECUÇÃO CONCLUÍDA COM SUCESSO!
+[2026-02-14 03:00:33] ================================================================================
+--------------------------------------------------------------------------------
+[2026-02-14 03:00:33] Conexão com banco de dados encerrada
+--------------------------------------------------------------------------------
+[2026-02-15 03:00:01] ================================================================================
+[2026-02-15 03:00:01] INÍCIO DA EXECUÇÃO - Atualização de Estoque Mínimo e Ideal
+[2026-02-15 03:00:01] Filial: 22
+[2026-02-15 03:00:01] ================================================================================
+[2026-02-15 03:00:01] Conectando ao servidor LOCAL: localhost\shopcontrol9
+[2026-02-15 03:00:02] ✅ Conexão estabelecida com sucesso!
+[2026-02-15 03:00:02] Buscando Ordem da Filial 22...
+[2026-02-15 03:00:02] ✅ Ordem da Filial encontrada: 1
+[2026-02-15 03:00:02] Iniciando UPDATE 1: Produtos com média ponderada de vendas...
+[2026-02-15 03:00:13] ✅ UPDATE 1 concluído: 10202 registros atualizados
+[2026-02-15 03:00:13] Iniciando UPDATE 2: Produtos novos (cadastrados há menos de 30 dias)...
+[2026-02-15 03:00:14] ✅ UPDATE 2 concluído: 48 registros atualizados
+[2026-02-15 03:00:14] Iniciando UPDATE 3: Produtos sem movimentação nos últimos 730 dias...
+[2026-02-15 03:00:37] ✅ UPDATE 3 concluído: 13834 registros atualizados
+[2026-02-15 03:00:37] ✅ COMMIT realizado com sucesso
+[2026-02-15 03:00:37] ================================================================================
+[2026-02-15 03:00:37] RESUMO DA EXECUÇÃO:
+[2026-02-15 03:00:37]   - UPDATE 1 (Média ponderada): 10202 produtos atualizados
+[2026-02-15 03:00:37]   - UPDATE 2 (Produtos novos): 48 produtos atualizados
+[2026-02-15 03:00:37]   - UPDATE 3 (Sem movimentação): 13834 produtos atualizados
+[2026-02-15 03:00:37]   - TOTAL GERAL: 24084 produtos atualizados
+[2026-02-15 03:00:37] ✅ EXECUÇÃO CONCLUÍDA COM SUCESSO!
+[2026-02-15 03:00:37] ================================================================================
+--------------------------------------------------------------------------------
+[2026-02-15 03:00:37] Conexão com banco de dados encerrada
+--------------------------------------------------------------------------------
+[2026-02-16 03:00:01] ================================================================================
+[2026-02-16 03:00:01] INÍCIO DA EXECUÇÃO - Atualização de Estoque Mínimo e Ideal
+[2026-02-16 03:00:01] Filial: 22
+[2026-02-16 03:00:01] ================================================================================
+[2026-02-16 03:00:01] Conectando ao servidor LOCAL: localhost\shopcontrol9
+[2026-02-16 03:00:02] ✅ Conexão estabelecida com sucesso!
+[2026-02-16 03:00:02] Buscando Ordem da Filial 22...
+[2026-02-16 03:00:02] ✅ Ordem da Filial encontrada: 1
+[2026-02-16 03:00:02] Iniciando UPDATE 1: Produtos com média ponderada de vendas...
+[2026-02-16 03:00:13] ✅ UPDATE 1 concluído: 10126 registros atualizados
+[2026-02-16 03:00:13] Iniciando UPDATE 2: Produtos novos (cadastrados há menos de 30 dias)...
+[2026-02-16 03:00:13] ✅ UPDATE 2 concluído: 48 registros atualizados
+[2026-02-16 03:00:13] Iniciando UPDATE 3: Produtos sem movimentação nos últimos 730 dias...
+[2026-02-16 03:00:36] ✅ UPDATE 3 concluído: 13848 registros atualizados
+[2026-02-16 03:00:36] ✅ COMMIT realizado com sucesso
+[2026-02-16 03:00:36] ================================================================================
+[2026-02-16 03:00:36] RESUMO DA EXECUÇÃO:
+[2026-02-16 03:00:36]   - UPDATE 1 (Média ponderada): 10126 produtos atualizados
+[2026-02-16 03:00:36]   - UPDATE 2 (Produtos novos): 48 produtos atualizados
+[2026-02-16 03:00:36]   - UPDATE 3 (Sem movimentação): 13848 produtos atualizados
+[2026-02-16 03:00:36]   - TOTAL GERAL: 24022 produtos atualizados
+[2026-02-16 03:00:36] ✅ EXECUÇÃO CONCLUÍDA COM SUCESSO!
+[2026-02-16 03:00:36] ================================================================================
+--------------------------------------------------------------------------------
+[2026-02-16 03:00:36] Conexão com banco de dados encerrada
+--------------------------------------------------------------------------------
+[2026-02-17 03:00:01] ================================================================================
+[2026-02-17 03:00:01] INÍCIO DA EXECUÇÃO - Atualização de Estoque Mínimo e Ideal
+[2026-02-17 03:00:01] Filial: 22
+[2026-02-17 03:00:01] ================================================================================
+[2026-02-17 03:00:01] Conectando ao servidor LOCAL: localhost\shopcontrol9
+[2026-02-17 03:00:02] ✅ Conexão estabelecida com sucesso!
+[2026-02-17 03:00:02] Buscando Ordem da Filial 22...
+[2026-02-17 03:00:02] ✅ Ordem da Filial encontrada: 1
+[2026-02-17 03:00:02] Iniciando UPDATE 1: Produtos com média ponderada de vendas...
+[2026-02-17 03:00:12] ✅ UPDATE 1 concluído: 10006 registros atualizados
+[2026-02-17 03:00:12] Iniciando UPDATE 2: Produtos novos (cadastrados há menos de 30 dias)...
+[2026-02-17 03:00:12] ✅ UPDATE 2 concluído: 48 registros atualizados
+[2026-02-17 03:00:12] Iniciando UPDATE 3: Produtos sem movimentação nos últimos 730 dias...
+[2026-02-17 03:00:32] ✅ UPDATE 3 concluído: 13849 registros atualizados
+[2026-02-17 03:00:32] ✅ COMMIT realizado com sucesso
+[2026-02-17 03:00:32] ================================================================================
+[2026-02-17 03:00:32] RESUMO DA EXECUÇÃO:
+[2026-02-17 03:00:32]   - UPDATE 1 (Média ponderada): 10006 produtos atualizados
+[2026-02-17 03:00:32]   - UPDATE 2 (Produtos novos): 48 produtos atualizados
+[2026-02-17 03:00:32]   - UPDATE 3 (Sem movimentação): 13849 produtos atualizados
+[2026-02-17 03:00:32]   - TOTAL GERAL: 23903 produtos atualizados
+[2026-02-17 03:00:32] ✅ EXECUÇÃO CONCLUÍDA COM SUCESSO!
+[2026-02-17 03:00:32] ================================================================================
+--------------------------------------------------------------------------------
+[2026-02-17 03:00:32] Conexão com banco de dados encerrada
+--------------------------------------------------------------------------------
+[2026-02-18 03:00:01] ================================================================================
+[2026-02-18 03:00:01] INÍCIO DA EXECUÇÃO - Atualização de Estoque Mínimo e Ideal
+[2026-02-18 03:00:01] Filial: 22
+[2026-02-18 03:00:01] ================================================================================
+[2026-02-18 03:00:01] Conectando ao servidor LOCAL: localhost\shopcontrol9
+[2026-02-18 03:00:02] ✅ Conexão estabelecida com sucesso!
+[2026-02-18 03:00:02] Buscando Ordem da Filial 22...
+[2026-02-18 03:00:02] ✅ Ordem da Filial encontrada: 1
+[2026-02-18 03:00:02] Iniciando UPDATE 1: Produtos com média ponderada de vendas...
+[2026-02-18 03:00:12] ✅ UPDATE 1 concluído: 9918 registros atualizados
+[2026-02-18 03:00:12] Iniciando UPDATE 2: Produtos novos (cadastrados há menos de 30 dias)...
+[2026-02-18 03:00:12] ✅ UPDATE 2 concluído: 48 registros atualizados
+[2026-02-18 03:00:12] Iniciando UPDATE 3: Produtos sem movimentação nos últimos 730 dias...
+[2026-02-18 03:00:32] ✅ UPDATE 3 concluído: 13849 registros atualizados
+[2026-02-18 03:00:32] ✅ COMMIT realizado com sucesso
+[2026-02-18 03:00:32] ================================================================================
+[2026-02-18 03:00:32] RESUMO DA EXECUÇÃO:
+[2026-02-18 03:00:32]   - UPDATE 1 (Média ponderada): 9918 produtos atualizados
+[2026-02-18 03:00:32]   - UPDATE 2 (Produtos novos): 48 produtos atualizados
+[2026-02-18 03:00:32]   - UPDATE 3 (Sem movimentação): 13849 produtos atualizados
+[2026-02-18 03:00:32]   - TOTAL GERAL: 23815 produtos atualizados
+[2026-02-18 03:00:32] ✅ EXECUÇÃO CONCLUÍDA COM SUCESSO!
+[2026-02-18 03:00:32] ================================================================================
+--------------------------------------------------------------------------------
+[2026-02-18 03:00:32] Conexão com banco de dados encerrada
+--------------------------------------------------------------------------------
+[2026-02-19 03:00:01] ================================================================================
+[2026-02-19 03:00:01] INÍCIO DA EXECUÇÃO - Atualização de Estoque Mínimo e Ideal
+[2026-02-19 03:00:01] Filial: 22
+[2026-02-19 03:00:01] ================================================================================
+[2026-02-19 03:00:01] Conectando ao servidor LOCAL: localhost\shopcontrol9
+[2026-02-19 03:00:02] ✅ Conexão estabelecida com sucesso!
+[2026-02-19 03:00:02] Buscando Ordem da Filial 22...
+[2026-02-19 03:00:02] ✅ Ordem da Filial encontrada: 1
+[2026-02-19 03:00:02] Iniciando UPDATE 1: Produtos com média ponderada de vendas...
+[2026-02-19 03:00:13] ✅ UPDATE 1 concluído: 10015 registros atualizados
+[2026-02-19 03:00:13] Iniciando UPDATE 2: Produtos novos (cadastrados há menos de 30 dias)...
+[2026-02-19 03:00:13] ✅ UPDATE 2 concluído: 46 registros atualizados
+[2026-02-19 03:00:13] Iniciando UPDATE 3: Produtos sem movimentação nos últimos 730 dias...
+[2026-02-19 03:00:36] ✅ UPDATE 3 concluído: 13857 registros atualizados
+[2026-02-19 03:00:36] ✅ COMMIT realizado com sucesso
+[2026-02-19 03:00:36] ================================================================================
+[2026-02-19 03:00:36] RESUMO DA EXECUÇÃO:
+[2026-02-19 03:00:36]   - UPDATE 1 (Média ponderada): 10015 produtos atualizados
+[2026-02-19 03:00:36]   - UPDATE 2 (Produtos novos): 46 produtos atualizados
+[2026-02-19 03:00:36]   - UPDATE 3 (Sem movimentação): 13857 produtos atualizados
+[2026-02-19 03:00:36]   - TOTAL GERAL: 23918 produtos atualizados
+[2026-02-19 03:00:36] ✅ EXECUÇÃO CONCLUÍDA COM SUCESSO!
+[2026-02-19 03:00:36] ================================================================================
+--------------------------------------------------------------------------------
+[2026-02-19 03:00:36] Conexão com banco de dados encerrada
+--------------------------------------------------------------------------------
+[2026-02-20 03:00:01] ================================================================================
+[2026-02-20 03:00:01] INÍCIO DA EXECUÇÃO - Atualização de Estoque Mínimo e Ideal
+[2026-02-20 03:00:01] Filial: 22
+[2026-02-20 03:00:01] ================================================================================
+[2026-02-20 03:00:01] Conectando ao servidor LOCAL: localhost\shopcontrol9
+[2026-02-20 03:00:02] ✅ Conexão estabelecida com sucesso!
+[2026-02-20 03:00:02] Buscando Ordem da Filial 22...
+[2026-02-20 03:00:02] ✅ Ordem da Filial encontrada: 1
+[2026-02-20 03:00:02] Iniciando UPDATE 1: Produtos com média ponderada de vendas...
+[2026-02-20 03:00:13] ✅ UPDATE 1 concluído: 10019 registros atualizados
+[2026-02-20 03:00:13] Iniciando UPDATE 2: Produtos novos (cadastrados há menos de 30 dias)...
+[2026-02-20 03:00:14] ✅ UPDATE 2 concluído: 46 registros atualizados
+[2026-02-20 03:00:14] Iniciando UPDATE 3: Produtos sem movimentação nos últimos 730 dias...
+[2026-02-20 03:00:37] ✅ UPDATE 3 concluído: 13860 registros atualizados
+[2026-02-20 03:00:37] ✅ COMMIT realizado com sucesso
+[2026-02-20 03:00:37] ================================================================================
+[2026-02-20 03:00:37] RESUMO DA EXECUÇÃO:
+[2026-02-20 03:00:37]   - UPDATE 1 (Média ponderada): 10019 produtos atualizados
+[2026-02-20 03:00:37]   - UPDATE 2 (Produtos novos): 46 produtos atualizados
+[2026-02-20 03:00:37]   - UPDATE 3 (Sem movimentação): 13860 produtos atualizados
+[2026-02-20 03:00:37]   - TOTAL GERAL: 23925 produtos atualizados
+[2026-02-20 03:00:37] ✅ EXECUÇÃO CONCLUÍDA COM SUCESSO!
+[2026-02-20 03:00:37] ================================================================================
+--------------------------------------------------------------------------------
+[2026-02-20 03:00:37] Conexão com banco de dados encerrada
+--------------------------------------------------------------------------------
+[2026-02-21 03:00:01] ================================================================================
+[2026-02-21 03:00:01] INÍCIO DA EXECUÇÃO - Atualização de Estoque Mínimo e Ideal
+[2026-02-21 03:00:01] Filial: 22
+[2026-02-21 03:00:01] ================================================================================
+[2026-02-21 03:00:01] Conectando ao servidor LOCAL: localhost\shopcontrol9
+[2026-02-21 03:00:02] ✅ Conexão estabelecida com sucesso!
+[2026-02-21 03:00:02] Buscando Ordem da Filial 22...
+[2026-02-21 03:00:02] ✅ Ordem da Filial encontrada: 1
+[2026-02-21 03:00:02] Iniciando UPDATE 1: Produtos com média ponderada de vendas...
+[2026-02-21 03:00:12] ✅ UPDATE 1 concluído: 10081 registros atualizados
+[2026-02-21 03:00:12] Iniciando UPDATE 2: Produtos novos (cadastrados há menos de 30 dias)...
+[2026-02-21 03:00:12] ✅ UPDATE 2 concluído: 49 registros atualizados
+[2026-02-21 03:00:12] Iniciando UPDATE 3: Produtos sem movimentação nos últimos 730 dias...
+[2026-02-21 03:00:33] ✅ UPDATE 3 concluído: 13861 registros atualizados
+[2026-02-21 03:00:33] ✅ COMMIT realizado com sucesso
+[2026-02-21 03:00:33] ================================================================================
+[2026-02-21 03:00:33] RESUMO DA EXECUÇÃO:
+[2026-02-21 03:00:33]   - UPDATE 1 (Média ponderada): 10081 produtos atualizados
+[2026-02-21 03:00:33]   - UPDATE 2 (Produtos novos): 49 produtos atualizados
+[2026-02-21 03:00:33]   - UPDATE 3 (Sem movimentação): 13861 produtos atualizados
+[2026-02-21 03:00:33]   - TOTAL GERAL: 23991 produtos atualizados
+[2026-02-21 03:00:33] ✅ EXECUÇÃO CONCLUÍDA COM SUCESSO!
+[2026-02-21 03:00:33] ================================================================================
+--------------------------------------------------------------------------------
+[2026-02-21 03:00:33] Conexão com banco de dados encerrada
+--------------------------------------------------------------------------------
+[2026-02-22 03:00:01] ================================================================================
+[2026-02-22 03:00:01] INÍCIO DA EXECUÇÃO - Atualização de Estoque Mínimo e Ideal
+[2026-02-22 03:00:01] Filial: 22
+[2026-02-22 03:00:01] ================================================================================
+[2026-02-22 03:00:01] Conectando ao servidor LOCAL: localhost\shopcontrol9
+[2026-02-22 03:00:02] ✅ Conexão estabelecida com sucesso!
+[2026-02-22 03:00:02] Buscando Ordem da Filial 22...
+[2026-02-22 03:00:02] ✅ Ordem da Filial encontrada: 1
+[2026-02-22 03:00:02] Iniciando UPDATE 1: Produtos com média ponderada de vendas...
+[2026-02-22 03:00:13] ✅ UPDATE 1 concluído: 10107 registros atualizados
+[2026-02-22 03:00:13] Iniciando UPDATE 2: Produtos novos (cadastrados há menos de 30 dias)...
+[2026-02-22 03:00:13] ✅ UPDATE 2 concluído: 45 registros atualizados
+[2026-02-22 03:00:13] Iniciando UPDATE 3: Produtos sem movimentação nos últimos 730 dias...
+[2026-02-22 03:00:36] ✅ UPDATE 3 concluído: 13869 registros atualizados
+[2026-02-22 03:00:36] ✅ COMMIT realizado com sucesso
+[2026-02-22 03:00:36] ================================================================================
+[2026-02-22 03:00:36] RESUMO DA EXECUÇÃO:
+[2026-02-22 03:00:36]   - UPDATE 1 (Média ponderada): 10107 produtos atualizados
+[2026-02-22 03:00:36]   - UPDATE 2 (Produtos novos): 45 produtos atualizados
+[2026-02-22 03:00:36]   - UPDATE 3 (Sem movimentação): 13869 produtos atualizados
+[2026-02-22 03:00:36]   - TOTAL GERAL: 24021 produtos atualizados
+[2026-02-22 03:00:36] ✅ EXECUÇÃO CONCLUÍDA COM SUCESSO!
+[2026-02-22 03:00:36] ================================================================================
+--------------------------------------------------------------------------------
+[2026-02-22 03:00:36] Conexão com banco de dados encerrada
+--------------------------------------------------------------------------------
+[2026-02-23 03:00:01] ================================================================================
+[2026-02-23 03:00:01] INÍCIO DA EXECUÇÃO - Atualização de Estoque Mínimo e Ideal
+[2026-02-23 03:00:01] Filial: 22
+[2026-02-23 03:00:01] ================================================================================
+[2026-02-23 03:00:01] Conectando ao servidor LOCAL: localhost\shopcontrol9
+[2026-02-23 03:00:02] ✅ Conexão estabelecida com sucesso!
+[2026-02-23 03:00:02] Buscando Ordem da Filial 22...
+[2026-02-23 03:00:02] ✅ Ordem da Filial encontrada: 1
+[2026-02-23 03:00:02] Iniciando UPDATE 1: Produtos com média ponderada de vendas...
+[2026-02-23 03:00:12] ✅ UPDATE 1 concluído: 10006 registros atualizados
+[2026-02-23 03:00:12] Iniciando UPDATE 2: Produtos novos (cadastrados há menos de 30 dias)...
+[2026-02-23 03:00:12] ✅ UPDATE 2 concluído: 41 registros atualizados
+[2026-02-23 03:00:12] Iniciando UPDATE 3: Produtos sem movimentação nos últimos 730 dias...
+[2026-02-23 03:00:33] ✅ UPDATE 3 concluído: 13886 registros atualizados
+[2026-02-23 03:00:33] ✅ COMMIT realizado com sucesso
+[2026-02-23 03:00:33] ================================================================================
+[2026-02-23 03:00:33] RESUMO DA EXECUÇÃO:
+[2026-02-23 03:00:33]   - UPDATE 1 (Média ponderada): 10006 produtos atualizados
+[2026-02-23 03:00:33]   - UPDATE 2 (Produtos novos): 41 produtos atualizados
+[2026-02-23 03:00:33]   - UPDATE 3 (Sem movimentação): 13886 produtos atualizados
+[2026-02-23 03:00:33]   - TOTAL GERAL: 23933 produtos atualizados
+[2026-02-23 03:00:33] ✅ EXECUÇÃO CONCLUÍDA COM SUCESSO!
+[2026-02-23 03:00:33] ================================================================================
+--------------------------------------------------------------------------------
+[2026-02-23 03:00:33] Conexão com banco de dados encerrada
+--------------------------------------------------------------------------------
+[2026-02-24 03:00:01] ================================================================================
+[2026-02-24 03:00:01] INÍCIO DA EXECUÇÃO - Atualização de Estoque Mínimo e Ideal
+[2026-02-24 03:00:01] Filial: 22
+[2026-02-24 03:00:01] ================================================================================
+[2026-02-24 03:00:01] Conectando ao servidor LOCAL: localhost\shopcontrol9
+[2026-02-24 03:00:01] ✅ Conexão estabelecida com sucesso!
+[2026-02-24 03:00:01] Buscando Ordem da Filial 22...
+[2026-02-24 03:00:01] ✅ Ordem da Filial encontrada: 1
+[2026-02-24 03:00:01] Iniciando UPDATE 1: Produtos com média ponderada de vendas...
+[2026-02-24 03:00:13] ✅ UPDATE 1 concluído: 10010 registros atualizados
+[2026-02-24 03:00:13] Iniciando UPDATE 2: Produtos novos (cadastrados há menos de 30 dias)...
+[2026-02-24 03:00:13] ✅ UPDATE 2 concluído: 41 registros atualizados
+[2026-02-24 03:00:13] Iniciando UPDATE 3: Produtos sem movimentação nos últimos 730 dias...
+[2026-02-24 03:00:36] ✅ UPDATE 3 concluído: 13875 registros atualizados
+[2026-02-24 03:00:36] ✅ COMMIT realizado com sucesso
+[2026-02-24 03:00:36] ================================================================================
+[2026-02-24 03:00:36] RESUMO DA EXECUÇÃO:
+[2026-02-24 03:00:36]   - UPDATE 1 (Média ponderada): 10010 produtos atualizados
+[2026-02-24 03:00:36]   - UPDATE 2 (Produtos novos): 41 produtos atualizados
+[2026-02-24 03:00:36]   - UPDATE 3 (Sem movimentação): 13875 produtos atualizados
+[2026-02-24 03:00:36]   - TOTAL GERAL: 23926 produtos atualizados
+[2026-02-24 03:00:36] ✅ EXECUÇÃO CONCLUÍDA COM SUCESSO!
+[2026-02-24 03:00:36] ================================================================================
+--------------------------------------------------------------------------------
+[2026-02-24 03:00:36] Conexão com banco de dados encerrada
+--------------------------------------------------------------------------------
+[2026-02-25 03:00:01] ================================================================================
+[2026-02-25 03:00:01] INÍCIO DA EXECUÇÃO - Atualização de Estoque Mínimo e Ideal
+[2026-02-25 03:00:01] Filial: 22
+[2026-02-25 03:00:01] ================================================================================
+[2026-02-25 03:00:01] Conectando ao servidor LOCAL: localhost\shopcontrol9
+[2026-02-25 03:00:02] ✅ Conexão estabelecida com sucesso!
+[2026-02-25 03:00:02] Buscando Ordem da Filial 22...
+[2026-02-25 03:00:02] ✅ Ordem da Filial encontrada: 1
+[2026-02-25 03:00:02] Iniciando UPDATE 1: Produtos com média ponderada de vendas...
+[2026-02-25 03:00:12] ✅ UPDATE 1 concluído: 10026 registros atualizados
+[2026-02-25 03:00:12] Iniciando UPDATE 2: Produtos novos (cadastrados há menos de 30 dias)...
+[2026-02-25 03:00:13] ✅ UPDATE 2 concluído: 43 registros atualizados
+[2026-02-25 03:00:13] Iniciando UPDATE 3: Produtos sem movimentação nos últimos 730 dias...
+[2026-02-25 03:00:33] ✅ UPDATE 3 concluído: 13856 registros atualizados
+[2026-02-25 03:00:33] ✅ COMMIT realizado com sucesso
+[2026-02-25 03:00:33] ================================================================================
+[2026-02-25 03:00:33] RESUMO DA EXECUÇÃO:
+[2026-02-25 03:00:33]   - UPDATE 1 (Média ponderada): 10026 produtos atualizados
+[2026-02-25 03:00:33]   - UPDATE 2 (Produtos novos): 43 produtos atualizados
+[2026-02-25 03:00:33]   - UPDATE 3 (Sem movimentação): 13856 produtos atualizados
+[2026-02-25 03:00:33]   - TOTAL GERAL: 23925 produtos atualizados
+[2026-02-25 03:00:33] ✅ EXECUÇÃO CONCLUÍDA COM SUCESSO!
+[2026-02-25 03:00:33] ================================================================================
+--------------------------------------------------------------------------------
+[2026-02-25 03:00:33] Conexão com banco de dados encerrada
+--------------------------------------------------------------------------------
+[2026-02-26 03:00:01] ================================================================================
+[2026-02-26 03:00:01] INÍCIO DA EXECUÇÃO - Atualização de Estoque Mínimo e Ideal
+[2026-02-26 03:00:01] Filial: 22
+[2026-02-26 03:00:01] ================================================================================
+[2026-02-26 03:00:01] Conectando ao servidor LOCAL: localhost\shopcontrol9
+[2026-02-26 03:00:02] ✅ Conexão estabelecida com sucesso!
+[2026-02-26 03:00:02] Buscando Ordem da Filial 22...
+[2026-02-26 03:00:02] ✅ Ordem da Filial encontrada: 1
+[2026-02-26 03:00:02] Iniciando UPDATE 1: Produtos com média ponderada de vendas...
+[2026-02-26 03:00:13] ✅ UPDATE 1 concluído: 10006 registros atualizados
+[2026-02-26 03:00:13] Iniciando UPDATE 2: Produtos novos (cadastrados há menos de 30 dias)...
+[2026-02-26 03:00:13] ✅ UPDATE 2 concluído: 44 registros atualizados
+[2026-02-26 03:00:13] Iniciando UPDATE 3: Produtos sem movimentação nos últimos 730 dias...
+[2026-02-26 03:00:36] ✅ UPDATE 3 concluído: 13858 registros atualizados
+[2026-02-26 03:00:36] ✅ COMMIT realizado com sucesso
+[2026-02-26 03:00:36] ================================================================================
+[2026-02-26 03:00:36] RESUMO DA EXECUÇÃO:
+[2026-02-26 03:00:36]   - UPDATE 1 (Média ponderada): 10006 produtos atualizados
+[2026-02-26 03:00:36]   - UPDATE 2 (Produtos novos): 44 produtos atualizados
+[2026-02-26 03:00:36]   - UPDATE 3 (Sem movimentação): 13858 produtos atualizados
+[2026-02-26 03:00:36]   - TOTAL GERAL: 23908 produtos atualizados
+[2026-02-26 03:00:36] ✅ EXECUÇÃO CONCLUÍDA COM SUCESSO!
+[2026-02-26 03:00:36] ================================================================================
+--------------------------------------------------------------------------------
+[2026-02-26 03:00:36] Conexão com banco de dados encerrada
+--------------------------------------------------------------------------------
+[2026-02-27 03:00:01] ================================================================================
+[2026-02-27 03:00:01] INÍCIO DA EXECUÇÃO - Atualização de Estoque Mínimo e Ideal
+[2026-02-27 03:00:01] Filial: 22
+[2026-02-27 03:00:01] ================================================================================
+[2026-02-27 03:00:01] Conectando ao servidor LOCAL: localhost\shopcontrol9
+[2026-02-27 03:00:02] ✅ Conexão estabelecida com sucesso!
+[2026-02-27 03:00:02] Buscando Ordem da Filial 22...
+[2026-02-27 03:00:02] ✅ Ordem da Filial encontrada: 1
+[2026-02-27 03:00:02] Iniciando UPDATE 1: Produtos com média ponderada de vendas...
+[2026-02-27 03:00:13] ✅ UPDATE 1 concluído: 10038 registros atualizados
+[2026-02-27 03:00:13] Iniciando UPDATE 2: Produtos novos (cadastrados há menos de 30 dias)...
+[2026-02-27 03:00:13] ✅ UPDATE 2 concluído: 45 registros atualizados
+[2026-02-27 03:00:13] Iniciando UPDATE 3: Produtos sem movimentação nos últimos 730 dias...
+[2026-02-27 03:00:35] ✅ UPDATE 3 concluído: 13869 registros atualizados
+[2026-02-27 03:00:35] ✅ COMMIT realizado com sucesso
+[2026-02-27 03:00:35] ================================================================================
+[2026-02-27 03:00:35] RESUMO DA EXECUÇÃO:
+[2026-02-27 03:00:35]   - UPDATE 1 (Média ponderada): 10038 produtos atualizados
+[2026-02-27 03:00:35]   - UPDATE 2 (Produtos novos): 45 produtos atualizados
+[2026-02-27 03:00:35]   - UPDATE 3 (Sem movimentação): 13869 produtos atualizados
+[2026-02-27 03:00:35]   - TOTAL GERAL: 23952 produtos atualizados
+[2026-02-27 03:00:35] ✅ EXECUÇÃO CONCLUÍDA COM SUCESSO!
+[2026-02-27 03:00:35] ================================================================================
+--------------------------------------------------------------------------------
+[2026-02-27 03:00:35] Conexão com banco de dados encerrada
+--------------------------------------------------------------------------------
+[2026-02-28 03:00:01] ================================================================================
+[2026-02-28 03:00:01] INÍCIO DA EXECUÇÃO - Atualização de Estoque Mínimo e Ideal
+[2026-02-28 03:00:01] Filial: 22
+[2026-02-28 03:00:01] ================================================================================
+[2026-02-28 03:00:01] Conectando ao servidor LOCAL: localhost\shopcontrol9
+[2026-02-28 03:00:02] ✅ Conexão estabelecida com sucesso!
+[2026-02-28 03:00:02] Buscando Ordem da Filial 22...
+[2026-02-28 03:00:02] ✅ Ordem da Filial encontrada: 1
+[2026-02-28 03:00:02] Iniciando UPDATE 1: Produtos com média ponderada de vendas...
+[2026-02-28 03:00:13] ✅ UPDATE 1 concluído: 10114 registros atualizados
+[2026-02-28 03:00:13] Iniciando UPDATE 2: Produtos novos (cadastrados há menos de 30 dias)...
+[2026-02-28 03:00:14] ✅ UPDATE 2 concluído: 45 registros atualizados
+[2026-02-28 03:00:14] Iniciando UPDATE 3: Produtos sem movimentação nos últimos 730 dias...
+[2026-02-28 03:00:37] ✅ UPDATE 3 concluído: 13873 registros atualizados
+[2026-02-28 03:00:37] ✅ COMMIT realizado com sucesso
+[2026-02-28 03:00:37] ================================================================================
+[2026-02-28 03:00:37] RESUMO DA EXECUÇÃO:
+[2026-02-28 03:00:37]   - UPDATE 1 (Média ponderada): 10114 produtos atualizados
+[2026-02-28 03:00:37]   - UPDATE 2 (Produtos novos): 45 produtos atualizados
+[2026-02-28 03:00:37]   - UPDATE 3 (Sem movimentação): 13873 produtos atualizados
+[2026-02-28 03:00:37]   - TOTAL GERAL: 24032 produtos atualizados
+[2026-02-28 03:00:37] ✅ EXECUÇÃO CONCLUÍDA COM SUCESSO!
+[2026-02-28 03:00:37] ================================================================================
+--------------------------------------------------------------------------------
+[2026-02-28 03:00:37] Conexão com banco de dados encerrada
+--------------------------------------------------------------------------------
+[2026-03-01 03:00:01] ================================================================================
+[2026-03-01 03:00:01] INÍCIO DA EXECUÇÃO - Atualização de Estoque Mínimo e Ideal
+[2026-03-01 03:00:01] Filial: 22
+[2026-03-01 03:00:01] ================================================================================
+[2026-03-01 03:00:01] Conectando ao servidor LOCAL: localhost\shopcontrol9
+[2026-03-01 03:00:02] ✅ Conexão estabelecida com sucesso!
+[2026-03-01 03:00:02] Buscando Ordem da Filial 22...
+[2026-03-01 03:00:02] ✅ Ordem da Filial encontrada: 1
+[2026-03-01 03:00:02] Iniciando UPDATE 1: Produtos com média ponderada de vendas...
+[2026-03-01 03:00:12] ✅ UPDATE 1 concluído: 10135 registros atualizados
+[2026-03-01 03:00:12] Iniciando UPDATE 2: Produtos novos (cadastrados há menos de 30 dias)...
+[2026-03-01 03:00:12] ✅ UPDATE 2 concluído: 42 registros atualizados
+[2026-03-01 03:00:12] Iniciando UPDATE 3: Produtos sem movimentação nos últimos 730 dias...
+[2026-03-01 03:00:33] ✅ UPDATE 3 concluído: 13884 registros atualizados
+[2026-03-01 03:00:33] ✅ COMMIT realizado com sucesso
+[2026-03-01 03:00:33] ================================================================================
+[2026-03-01 03:00:33] RESUMO DA EXECUÇÃO:
+[2026-03-01 03:00:33]   - UPDATE 1 (Média ponderada): 10135 produtos atualizados
+[2026-03-01 03:00:33]   - UPDATE 2 (Produtos novos): 42 produtos atualizados
+[2026-03-01 03:00:33]   - UPDATE 3 (Sem movimentação): 13884 produtos atualizados
+[2026-03-01 03:00:33]   - TOTAL GERAL: 24061 produtos atualizados
+[2026-03-01 03:00:33] ✅ EXECUÇÃO CONCLUÍDA COM SUCESSO!
+[2026-03-01 03:00:33] ================================================================================
+--------------------------------------------------------------------------------
+[2026-03-01 03:00:33] Conexão com banco de dados encerrada
+--------------------------------------------------------------------------------
+[2026-03-02 03:00:01] ================================================================================
+[2026-03-02 03:00:01] INÍCIO DA EXECUÇÃO - Atualização de Estoque Mínimo e Ideal
+[2026-03-02 03:00:01] Filial: 22
+[2026-03-02 03:00:01] ================================================================================
+[2026-03-02 03:00:01] Conectando ao servidor LOCAL: localhost\shopcontrol9
+[2026-03-02 03:00:02] ✅ Conexão estabelecida com sucesso!
+[2026-03-02 03:00:02] Buscando Ordem da Filial 22...
+[2026-03-02 03:00:02] ✅ Ordem da Filial encontrada: 1
+[2026-03-02 03:00:02] Iniciando UPDATE 1: Produtos com média ponderada de vendas...
+[2026-03-02 03:00:12] ✅ UPDATE 1 concluído: 10053 registros atualizados
+[2026-03-02 03:00:12] Iniciando UPDATE 2: Produtos novos (cadastrados há menos de 30 dias)...
+[2026-03-02 03:00:12] ✅ UPDATE 2 concluído: 32 registros atualizados
+[2026-03-02 03:00:12] Iniciando UPDATE 3: Produtos sem movimentação nos últimos 730 dias...
+[2026-03-02 03:00:33] ✅ UPDATE 3 concluído: 13901 registros atualizados
+[2026-03-02 03:00:33] ✅ COMMIT realizado com sucesso
+[2026-03-02 03:00:33] ================================================================================
+[2026-03-02 03:00:33] RESUMO DA EXECUÇÃO:
+[2026-03-02 03:00:33]   - UPDATE 1 (Média ponderada): 10053 produtos atualizados
+[2026-03-02 03:00:33]   - UPDATE 2 (Produtos novos): 32 produtos atualizados
+[2026-03-02 03:00:33]   - UPDATE 3 (Sem movimentação): 13901 produtos atualizados
+[2026-03-02 03:00:33]   - TOTAL GERAL: 23986 produtos atualizados
+[2026-03-02 03:00:33] ✅ EXECUÇÃO CONCLUÍDA COM SUCESSO!
+[2026-03-02 03:00:33] ================================================================================
+--------------------------------------------------------------------------------
+[2026-03-02 03:00:33] Conexão com banco de dados encerrada
+--------------------------------------------------------------------------------
+[2026-03-03 03:00:01] ================================================================================
+[2026-03-03 03:00:01] INÍCIO DA EXECUÇÃO - Atualização de Estoque Mínimo e Ideal
+[2026-03-03 03:00:01] Filial: 22
+[2026-03-03 03:00:01] ================================================================================
+[2026-03-03 03:00:01] Conectando ao servidor LOCAL: localhost\shopcontrol9
+[2026-03-03 03:00:02] ✅ Conexão estabelecida com sucesso!
+[2026-03-03 03:00:02] Buscando Ordem da Filial 22...
+[2026-03-03 03:00:02] ✅ Ordem da Filial encontrada: 1
+[2026-03-03 03:00:02] Iniciando UPDATE 1: Produtos com média ponderada de vendas...
+[2026-03-03 03:00:13] ✅ UPDATE 1 concluído: 10052 registros atualizados
+[2026-03-03 03:00:13] Iniciando UPDATE 2: Produtos novos (cadastrados há menos de 30 dias)...
+[2026-03-03 03:00:13] ✅ UPDATE 2 concluído: 35 registros atualizados
+[2026-03-03 03:00:13] Iniciando UPDATE 3: Produtos sem movimentação nos últimos 730 dias...
+[2026-03-03 03:00:36] ✅ UPDATE 3 concluído: 13893 registros atualizados
+[2026-03-03 03:00:36] ✅ COMMIT realizado com sucesso
+[2026-03-03 03:00:36] ================================================================================
+[2026-03-03 03:00:36] RESUMO DA EXECUÇÃO:
+[2026-03-03 03:00:36]   - UPDATE 1 (Média ponderada): 10052 produtos atualizados
+[2026-03-03 03:00:36]   - UPDATE 2 (Produtos novos): 35 produtos atualizados
+[2026-03-03 03:00:36]   - UPDATE 3 (Sem movimentação): 13893 produtos atualizados
+[2026-03-03 03:00:36]   - TOTAL GERAL: 23980 produtos atualizados
+[2026-03-03 03:00:36] ✅ EXECUÇÃO CONCLUÍDA COM SUCESSO!
+[2026-03-03 03:00:36] ================================================================================
+--------------------------------------------------------------------------------
+[2026-03-03 03:00:36] Conexão com banco de dados encerrada
+--------------------------------------------------------------------------------
+[2026-03-04 03:00:01] ================================================================================
+[2026-03-04 03:00:01] INÍCIO DA EXECUÇÃO - Atualização de Estoque Mínimo e Ideal
+[2026-03-04 03:00:01] Filial: 22
+[2026-03-04 03:00:01] ================================================================================
+[2026-03-04 03:00:01] Conectando ao servidor LOCAL: localhost\shopcontrol9
+[2026-03-04 03:00:02] ✅ Conexão estabelecida com sucesso!
+[2026-03-04 03:00:02] Buscando Ordem da Filial 22...
+[2026-03-04 03:00:02] ✅ Ordem da Filial encontrada: 1
+[2026-03-04 03:00:02] Iniciando UPDATE 1: Produtos com média ponderada de vendas...
+[2026-03-04 03:00:13] ✅ UPDATE 1 concluído: 10013 registros atualizados
+[2026-03-04 03:00:13] Iniciando UPDATE 2: Produtos novos (cadastrados há menos de 30 dias)...
+[2026-03-04 03:00:13] ✅ UPDATE 2 concluído: 37 registros atualizados
+[2026-03-04 03:00:13] Iniciando UPDATE 3: Produtos sem movimentação nos últimos 730 dias...
+[2026-03-04 03:00:34] ✅ UPDATE 3 concluído: 13887 registros atualizados
+[2026-03-04 03:00:34] ✅ COMMIT realizado com sucesso
+[2026-03-04 03:00:34] ================================================================================
+[2026-03-04 03:00:34] RESUMO DA EXECUÇÃO:
+[2026-03-04 03:00:34]   - UPDATE 1 (Média ponderada): 10013 produtos atualizados
+[2026-03-04 03:00:34]   - UPDATE 2 (Produtos novos): 37 produtos atualizados
+[2026-03-04 03:00:34]   - UPDATE 3 (Sem movimentação): 13887 produtos atualizados
+[2026-03-04 03:00:34]   - TOTAL GERAL: 23937 produtos atualizados
+[2026-03-04 03:00:34] ✅ EXECUÇÃO CONCLUÍDA COM SUCESSO!
+[2026-03-04 03:00:34] ================================================================================
+--------------------------------------------------------------------------------
+[2026-03-04 03:00:34] Conexão com banco de dados encerrada
+--------------------------------------------------------------------------------
+[2026-03-05 03:00:01] ================================================================================
+[2026-03-05 03:00:01] INÍCIO DA EXECUÇÃO - Atualização de Estoque Mínimo e Ideal
+[2026-03-05 03:00:01] Filial: 22
+[2026-03-05 03:00:01] ================================================================================
+[2026-03-05 03:00:01] Conectando ao servidor LOCAL: localhost\shopcontrol9
+[2026-03-05 03:00:02] ✅ Conexão estabelecida com sucesso!
+[2026-03-05 03:00:02] Buscando Ordem da Filial 22...
+[2026-03-05 03:00:02] ✅ Ordem da Filial encontrada: 1
+[2026-03-05 03:00:02] Iniciando UPDATE 1: Produtos com média ponderada de vendas...
+[2026-03-05 03:00:14] ✅ UPDATE 1 concluído: 10034 registros atualizados
+[2026-03-05 03:00:14] Iniciando UPDATE 2: Produtos novos (cadastrados há menos de 30 dias)...
+[2026-03-05 03:00:14] ✅ UPDATE 2 concluído: 34 registros atualizados
+[2026-03-05 03:00:14] Iniciando UPDATE 3: Produtos sem movimentação nos últimos 730 dias...
+[2026-03-05 03:00:38] ✅ UPDATE 3 concluído: 13890 registros atualizados
+[2026-03-05 03:00:38] ✅ COMMIT realizado com sucesso
+[2026-03-05 03:00:38] ================================================================================
+[2026-03-05 03:00:38] RESUMO DA EXECUÇÃO:
+[2026-03-05 03:00:38]   - UPDATE 1 (Média ponderada): 10034 produtos atualizados
+[2026-03-05 03:00:38]   - UPDATE 2 (Produtos novos): 34 produtos atualizados
+[2026-03-05 03:00:38]   - UPDATE 3 (Sem movimentação): 13890 produtos atualizados
+[2026-03-05 03:00:38]   - TOTAL GERAL: 23958 produtos atualizados
+[2026-03-05 03:00:38] ✅ EXECUÇÃO CONCLUÍDA COM SUCESSO!
+[2026-03-05 03:00:38] ================================================================================
+--------------------------------------------------------------------------------
+[2026-03-05 03:00:38] Conexão com banco de dados encerrada
+--------------------------------------------------------------------------------
+[2026-03-06 03:00:01] ================================================================================
+[2026-03-06 03:00:01] INÍCIO DA EXECUÇÃO - Atualização de Estoque Mínimo e Ideal
+[2026-03-06 03:00:01] Filial: 22
+[2026-03-06 03:00:01] ================================================================================
+[2026-03-06 03:00:01] Conectando ao servidor LOCAL: localhost\shopcontrol9
+[2026-03-06 03:00:02] ✅ Conexão estabelecida com sucesso!
+[2026-03-06 03:00:02] Buscando Ordem da Filial 22...
+[2026-03-06 03:00:02] ✅ Ordem da Filial encontrada: 1
+[2026-03-06 03:00:02] Iniciando UPDATE 1: Produtos com média ponderada de vendas...
+[2026-03-06 03:00:13] ✅ UPDATE 1 concluído: 10067 registros atualizados
+[2026-03-06 03:00:13] Iniciando UPDATE 2: Produtos novos (cadastrados há menos de 30 dias)...
+[2026-03-06 03:00:13] ✅ UPDATE 2 concluído: 42 registros atualizados
+[2026-03-06 03:00:13] Iniciando UPDATE 3: Produtos sem movimentação nos últimos 730 dias...
+[2026-03-06 03:00:36] ✅ UPDATE 3 concluído: 13890 registros atualizados
+[2026-03-06 03:00:36] ✅ COMMIT realizado com sucesso
+[2026-03-06 03:00:36] ================================================================================
+[2026-03-06 03:00:36] RESUMO DA EXECUÇÃO:
+[2026-03-06 03:00:36]   - UPDATE 1 (Média ponderada): 10067 produtos atualizados
+[2026-03-06 03:00:36]   - UPDATE 2 (Produtos novos): 42 produtos atualizados
+[2026-03-06 03:00:36]   - UPDATE 3 (Sem movimentação): 13890 produtos atualizados
+[2026-03-06 03:00:36]   - TOTAL GERAL: 23999 produtos atualizados
+[2026-03-06 03:00:36] ✅ EXECUÇÃO CONCLUÍDA COM SUCESSO!
+[2026-03-06 03:00:36] ================================================================================
+--------------------------------------------------------------------------------
+[2026-03-06 03:00:36] Conexão com banco de dados encerrada
+--------------------------------------------------------------------------------
+[2026-03-07 03:00:01] ================================================================================
+[2026-03-07 03:00:01] INÍCIO DA EXECUÇÃO - Atualização de Estoque Mínimo e Ideal
+[2026-03-07 03:00:01] Filial: 22
+[2026-03-07 03:00:01] ================================================================================
+[2026-03-07 03:00:01] Conectando ao servidor LOCAL: localhost\shopcontrol9
+[2026-03-07 03:00:01] ✅ Conexão estabelecida com sucesso!
+[2026-03-07 03:00:01] Buscando Ordem da Filial 22...
+[2026-03-07 03:00:01] ✅ Ordem da Filial encontrada: 1
+[2026-03-07 03:00:01] Iniciando UPDATE 1: Produtos com média ponderada de vendas...
+[2026-03-07 03:00:13] ✅ UPDATE 1 concluído: 10089 registros atualizados
+[2026-03-07 03:00:13] Iniciando UPDATE 2: Produtos novos (cadastrados há menos de 30 dias)...
+[2026-03-07 03:00:13] ✅ UPDATE 2 concluído: 44 registros atualizados
+[2026-03-07 03:00:13] Iniciando UPDATE 3: Produtos sem movimentação nos últimos 730 dias...
+[2026-03-07 03:04:11] ✅ UPDATE 3 concluído: 13901 registros atualizados
+[2026-03-07 03:04:11] ✅ COMMIT realizado com sucesso
+[2026-03-07 03:04:11] ================================================================================
+[2026-03-07 03:04:11] RESUMO DA EXECUÇÃO:
+[2026-03-07 03:04:11]   - UPDATE 1 (Média ponderada): 10089 produtos atualizados
+[2026-03-07 03:04:11]   - UPDATE 2 (Produtos novos): 44 produtos atualizados
+[2026-03-07 03:04:11]   - UPDATE 3 (Sem movimentação): 13901 produtos atualizados
+[2026-03-07 03:04:11]   - TOTAL GERAL: 24034 produtos atualizados
+[2026-03-07 03:04:11] ✅ EXECUÇÃO CONCLUÍDA COM SUCESSO!
+[2026-03-07 03:04:11] ================================================================================
+--------------------------------------------------------------------------------
+[2026-03-07 03:04:11] Conexão com banco de dados encerrada
+--------------------------------------------------------------------------------
+[2026-03-08 03:00:01] ================================================================================
+[2026-03-08 03:00:01] INÍCIO DA EXECUÇÃO - Atualização de Estoque Mínimo e Ideal
+[2026-03-08 03:00:01] Filial: 22
+[2026-03-08 03:00:01] ================================================================================
+[2026-03-08 03:00:01] Conectando ao servidor LOCAL: localhost\shopcontrol9
+[2026-03-08 03:00:01] ✅ Conexão estabelecida com sucesso!
+[2026-03-08 03:00:01] Buscando Ordem da Filial 22...
+[2026-03-08 03:00:01] ✅ Ordem da Filial encontrada: 1
+[2026-03-08 03:00:01] Iniciando UPDATE 1: Produtos com média ponderada de vendas...
+[2026-03-08 03:00:13] ✅ UPDATE 1 concluído: 10108 registros atualizados
+[2026-03-08 03:00:13] Iniciando UPDATE 2: Produtos novos (cadastrados há menos de 30 dias)...
+[2026-03-08 03:00:13] ✅ UPDATE 2 concluído: 39 registros atualizados
+[2026-03-08 03:00:13] Iniciando UPDATE 3: Produtos sem movimentação nos últimos 730 dias...
+[2026-03-08 03:00:36] ✅ UPDATE 3 concluído: 13923 registros atualizados
+[2026-03-08 03:00:36] ✅ COMMIT realizado com sucesso
+[2026-03-08 03:00:36] ================================================================================
+[2026-03-08 03:00:36] RESUMO DA EXECUÇÃO:
+[2026-03-08 03:00:36]   - UPDATE 1 (Média ponderada): 10108 produtos atualizados
+[2026-03-08 03:00:36]   - UPDATE 2 (Produtos novos): 39 produtos atualizados
+[2026-03-08 03:00:36]   - UPDATE 3 (Sem movimentação): 13923 produtos atualizados
+[2026-03-08 03:00:36]   - TOTAL GERAL: 24070 produtos atualizados
+[2026-03-08 03:00:36] ✅ EXECUÇÃO CONCLUÍDA COM SUCESSO!
+[2026-03-08 03:00:36] ================================================================================
+--------------------------------------------------------------------------------
+[2026-03-08 03:00:36] Conexão com banco de dados encerrada
+--------------------------------------------------------------------------------
+[2026-03-09 03:00:01] ================================================================================
+[2026-03-09 03:00:01] INÍCIO DA EXECUÇÃO - Atualização de Estoque Mínimo e Ideal
+[2026-03-09 03:00:01] Filial: 22
+[2026-03-09 03:00:01] ================================================================================
+[2026-03-09 03:00:01] Conectando ao servidor LOCAL: localhost\shopcontrol9
+[2026-03-09 03:00:01] ✅ Conexão estabelecida com sucesso!
+[2026-03-09 03:00:01] Buscando Ordem da Filial 22...
+[2026-03-09 03:00:01] ✅ Ordem da Filial encontrada: 1
+[2026-03-09 03:00:01] Iniciando UPDATE 1: Produtos com média ponderada de vendas...
+[2026-03-09 03:00:13] ✅ UPDATE 1 concluído: 10109 registros atualizados
+[2026-03-09 03:00:13] Iniciando UPDATE 2: Produtos novos (cadastrados há menos de 30 dias)...
+[2026-03-09 03:00:13] ✅ UPDATE 2 concluído: 39 registros atualizados
+[2026-03-09 03:00:13] Iniciando UPDATE 3: Produtos sem movimentação nos últimos 730 dias...
+[2026-03-09 03:00:35] ✅ UPDATE 3 concluído: 13943 registros atualizados
+[2026-03-09 03:00:35] ✅ COMMIT realizado com sucesso
+[2026-03-09 03:00:35] ================================================================================
+[2026-03-09 03:00:35] RESUMO DA EXECUÇÃO:
+[2026-03-09 03:00:35]   - UPDATE 1 (Média ponderada): 10109 produtos atualizados
+[2026-03-09 03:00:35]   - UPDATE 2 (Produtos novos): 39 produtos atualizados
+[2026-03-09 03:00:35]   - UPDATE 3 (Sem movimentação): 13943 produtos atualizados
+[2026-03-09 03:00:35]   - TOTAL GERAL: 24091 produtos atualizados
+[2026-03-09 03:00:35] ✅ EXECUÇÃO CONCLUÍDA COM SUCESSO!
+[2026-03-09 03:00:35] ================================================================================
+--------------------------------------------------------------------------------
+[2026-03-09 03:00:35] Conexão com banco de dados encerrada
+--------------------------------------------------------------------------------
+[2026-03-10 03:00:01] ================================================================================
+[2026-03-10 03:00:01] INÍCIO DA EXECUÇÃO - Atualização de Estoque Mínimo e Ideal
+[2026-03-10 03:00:01] Filial: 22
+[2026-03-10 03:00:01] ================================================================================
+[2026-03-10 03:00:01] Conectando ao servidor LOCAL: localhost\shopcontrol9
+[2026-03-10 03:00:01] ✅ Conexão estabelecida com sucesso!
+[2026-03-10 03:00:01] Buscando Ordem da Filial 22...
+[2026-03-10 03:00:01] ✅ Ordem da Filial encontrada: 1
+[2026-03-10 03:00:01] Iniciando UPDATE 1: Produtos com média ponderada de vendas...
+[2026-03-10 03:00:12] ✅ UPDATE 1 concluído: 10106 registros atualizados
+[2026-03-10 03:00:12] Iniciando UPDATE 2: Produtos novos (cadastrados há menos de 30 dias)...
+[2026-03-10 03:00:12] ✅ UPDATE 2 concluído: 40 registros atualizados
+[2026-03-10 03:00:12] Iniciando UPDATE 3: Produtos sem movimentação nos últimos 730 dias...
+[2026-03-10 03:00:32] ✅ UPDATE 3 concluído: 13925 registros atualizados
+[2026-03-10 03:00:32] ✅ COMMIT realizado com sucesso
+[2026-03-10 03:00:32] ================================================================================
+[2026-03-10 03:00:32] RESUMO DA EXECUÇÃO:
+[2026-03-10 03:00:32]   - UPDATE 1 (Média ponderada): 10106 produtos atualizados
+[2026-03-10 03:00:32]   - UPDATE 2 (Produtos novos): 40 produtos atualizados
+[2026-03-10 03:00:32]   - UPDATE 3 (Sem movimentação): 13925 produtos atualizados
+[2026-03-10 03:00:32]   - TOTAL GERAL: 24071 produtos atualizados
+[2026-03-10 03:00:32] ✅ EXECUÇÃO CONCLUÍDA COM SUCESSO!
+[2026-03-10 03:00:32] ================================================================================
+--------------------------------------------------------------------------------
+[2026-03-10 03:00:32] Conexão com banco de dados encerrada
+--------------------------------------------------------------------------------
+[2026-03-11 03:00:01] ================================================================================
+[2026-03-11 03:00:01] INÍCIO DA EXECUÇÃO - Atualização de Estoque Mínimo e Ideal
+[2026-03-11 03:00:01] Filial: 22
+[2026-03-11 03:00:01] ================================================================================
+[2026-03-11 03:00:01] Conectando ao servidor LOCAL: localhost\shopcontrol9
+[2026-03-11 03:00:01] ✅ Conexão estabelecida com sucesso!
+[2026-03-11 03:00:01] Buscando Ordem da Filial 22...
+[2026-03-11 03:00:01] ✅ Ordem da Filial encontrada: 1
+[2026-03-11 03:00:01] Iniciando UPDATE 1: Produtos com média ponderada de vendas...
+[2026-03-11 03:00:13] ✅ UPDATE 1 concluído: 10075 registros atualizados
+[2026-03-11 03:00:13] Iniciando UPDATE 2: Produtos novos (cadastrados há menos de 30 dias)...
+[2026-03-11 03:00:13] ✅ UPDATE 2 concluído: 43 registros atualizados
+[2026-03-11 03:00:13] Iniciando UPDATE 3: Produtos sem movimentação nos últimos 730 dias...
+[2026-03-11 03:00:34] ✅ UPDATE 3 concluído: 13918 registros atualizados
+[2026-03-11 03:00:34] ✅ COMMIT realizado com sucesso
+[2026-03-11 03:00:34] ================================================================================
+[2026-03-11 03:00:34] RESUMO DA EXECUÇÃO:
+[2026-03-11 03:00:34]   - UPDATE 1 (Média ponderada): 10075 produtos atualizados
+[2026-03-11 03:00:34]   - UPDATE 2 (Produtos novos): 43 produtos atualizados
+[2026-03-11 03:00:34]   - UPDATE 3 (Sem movimentação): 13918 produtos atualizados
+[2026-03-11 03:00:34]   - TOTAL GERAL: 24036 produtos atualizados
+[2026-03-11 03:00:34] ✅ EXECUÇÃO CONCLUÍDA COM SUCESSO!
+[2026-03-11 03:00:34] ================================================================================
+--------------------------------------------------------------------------------
+[2026-03-11 03:00:34] Conexão com banco de dados encerrada
+--------------------------------------------------------------------------------
+[2026-03-12 03:00:01] ================================================================================
+[2026-03-12 03:00:01] INÍCIO DA EXECUÇÃO - Atualização de Estoque Mínimo e Ideal
+[2026-03-12 03:00:01] Filial: 22
+[2026-03-12 03:00:01] ================================================================================
+[2026-03-12 03:00:01] Conectando ao servidor LOCAL: localhost\shopcontrol9
+[2026-03-12 03:00:01] ✅ Conexão estabelecida com sucesso!
+[2026-03-12 03:00:01] Buscando Ordem da Filial 22...
+[2026-03-12 03:00:01] ✅ Ordem da Filial encontrada: 1
+[2026-03-12 03:00:01] Iniciando UPDATE 1: Produtos com média ponderada de vendas...
+[2026-03-12 03:00:14] ✅ UPDATE 1 concluído: 10079 registros atualizados
+[2026-03-12 03:00:14] Iniciando UPDATE 2: Produtos novos (cadastrados há menos de 30 dias)...
+[2026-03-12 03:00:14] ✅ UPDATE 2 concluído: 44 registros atualizados
+[2026-03-12 03:00:14] Iniciando UPDATE 3: Produtos sem movimentação nos últimos 730 dias...
+[2026-03-12 03:00:37] ✅ UPDATE 3 concluído: 13930 registros atualizados
+[2026-03-12 03:00:37] ✅ COMMIT realizado com sucesso
+[2026-03-12 03:00:37] ================================================================================
+[2026-03-12 03:00:37] RESUMO DA EXECUÇÃO:
+[2026-03-12 03:00:37]   - UPDATE 1 (Média ponderada): 10079 produtos atualizados
+[2026-03-12 03:00:37]   - UPDATE 2 (Produtos novos): 44 produtos atualizados
+[2026-03-12 03:00:37]   - UPDATE 3 (Sem movimentação): 13930 produtos atualizados
+[2026-03-12 03:00:37]   - TOTAL GERAL: 24053 produtos atualizados
+[2026-03-12 03:00:37] ✅ EXECUÇÃO CONCLUÍDA COM SUCESSO!
+[2026-03-12 03:00:37] ================================================================================
+--------------------------------------------------------------------------------
+[2026-03-12 03:00:37] Conexão com banco de dados encerrada
+--------------------------------------------------------------------------------
+[2026-03-13 03:00:01] ================================================================================
+[2026-03-13 03:00:01] INÍCIO DA EXECUÇÃO - Atualização de Estoque Mínimo e Ideal
+[2026-03-13 03:00:01] Filial: 22
+[2026-03-13 03:00:01] ================================================================================
+[2026-03-13 03:00:01] Conectando ao servidor LOCAL: localhost\shopcontrol9
+[2026-03-13 03:00:01] ✅ Conexão estabelecida com sucesso!
+[2026-03-13 03:00:01] Buscando Ordem da Filial 22...
+[2026-03-13 03:00:01] ✅ Ordem da Filial encontrada: 1
+[2026-03-13 03:00:01] Iniciando UPDATE 1: Produtos com média ponderada de vendas...
+[2026-03-13 03:00:13] ✅ UPDATE 1 concluído: 10076 registros atualizados
+[2026-03-13 03:00:13] Iniciando UPDATE 2: Produtos novos (cadastrados há menos de 30 dias)...
+[2026-03-13 03:00:13] ✅ UPDATE 2 concluído: 40 registros atualizados
+[2026-03-13 03:00:13] Iniciando UPDATE 3: Produtos sem movimentação nos últimos 730 dias...
+[2026-03-13 03:00:36] ✅ UPDATE 3 concluído: 13949 registros atualizados
+[2026-03-13 03:00:36] ✅ COMMIT realizado com sucesso
+[2026-03-13 03:00:36] ================================================================================
+[2026-03-13 03:00:36] RESUMO DA EXECUÇÃO:
+[2026-03-13 03:00:36]   - UPDATE 1 (Média ponderada): 10076 produtos atualizados
+[2026-03-13 03:00:36]   - UPDATE 2 (Produtos novos): 40 produtos atualizados
+[2026-03-13 03:00:36]   - UPDATE 3 (Sem movimentação): 13949 produtos atualizados
+[2026-03-13 03:00:36]   - TOTAL GERAL: 24065 produtos atualizados
+[2026-03-13 03:00:36] ✅ EXECUÇÃO CONCLUÍDA COM SUCESSO!
+[2026-03-13 03:00:36] ================================================================================
+--------------------------------------------------------------------------------
+[2026-03-13 03:00:36] Conexão com banco de dados encerrada
+--------------------------------------------------------------------------------
+[2026-03-14 03:00:01] ================================================================================
+[2026-03-14 03:00:01] INÍCIO DA EXECUÇÃO - Atualização de Estoque Mínimo e Ideal
+[2026-03-14 03:00:01] Filial: 22
+[2026-03-14 03:00:01] ================================================================================
+[2026-03-14 03:00:01] Conectando ao servidor LOCAL: localhost\shopcontrol9
+[2026-03-14 03:00:01] ✅ Conexão estabelecida com sucesso!
+[2026-03-14 03:00:01] Buscando Ordem da Filial 22...
+[2026-03-14 03:00:01] ✅ Ordem da Filial encontrada: 1
+[2026-03-14 03:00:01] Iniciando UPDATE 1: Produtos com média ponderada de vendas...
+[2026-03-14 03:00:12] ✅ UPDATE 1 concluído: 10129 registros atualizados
+[2026-03-14 03:00:12] Iniciando UPDATE 2: Produtos novos (cadastrados há menos de 30 dias)...
+[2026-03-14 03:00:13] ✅ UPDATE 2 concluído: 39 registros atualizados
+[2026-03-14 03:00:13] Iniciando UPDATE 3: Produtos sem movimentação nos últimos 730 dias...
+[2026-03-14 03:00:34] ✅ UPDATE 3 concluído: 13958 registros atualizados
+[2026-03-14 03:00:34] ✅ COMMIT realizado com sucesso
+[2026-03-14 03:00:34] ================================================================================
+[2026-03-14 03:00:34] RESUMO DA EXECUÇÃO:
+[2026-03-14 03:00:34]   - UPDATE 1 (Média ponderada): 10129 produtos atualizados
+[2026-03-14 03:00:34]   - UPDATE 2 (Produtos novos): 39 produtos atualizados
+[2026-03-14 03:00:34]   - UPDATE 3 (Sem movimentação): 13958 produtos atualizados
+[2026-03-14 03:00:34]   - TOTAL GERAL: 24126 produtos atualizados
+[2026-03-14 03:00:34] ✅ EXECUÇÃO CONCLUÍDA COM SUCESSO!
+[2026-03-14 03:00:34] ================================================================================
+--------------------------------------------------------------------------------
+[2026-03-14 03:00:34] Conexão com banco de dados encerrada
+--------------------------------------------------------------------------------
+[2026-03-15 03:00:01] ================================================================================
+[2026-03-15 03:00:01] INÍCIO DA EXECUÇÃO - Atualização de Estoque Mínimo e Ideal
+[2026-03-15 03:00:01] Filial: 22
+[2026-03-15 03:00:01] ================================================================================
+[2026-03-15 03:00:01] Conectando ao servidor LOCAL: localhost\shopcontrol9
+[2026-03-15 03:00:01] ✅ Conexão estabelecida com sucesso!
+[2026-03-15 03:00:01] Buscando Ordem da Filial 22...
+[2026-03-15 03:00:01] ✅ Ordem da Filial encontrada: 1
+[2026-03-15 03:00:01] Iniciando UPDATE 1: Produtos com média ponderada de vendas...
+[2026-03-15 03:00:13] ✅ UPDATE 1 concluído: 10135 registros atualizados
+[2026-03-15 03:00:13] Iniciando UPDATE 2: Produtos novos (cadastrados há menos de 30 dias)...
+[2026-03-15 03:00:13] ✅ UPDATE 2 concluído: 36 registros atualizados
+[2026-03-15 03:00:13] Iniciando UPDATE 3: Produtos sem movimentação nos últimos 730 dias...
+[2026-03-15 03:00:33] ✅ UPDATE 3 concluído: 13985 registros atualizados
+[2026-03-15 03:00:33] ✅ COMMIT realizado com sucesso
+[2026-03-15 03:00:33] ================================================================================
+[2026-03-15 03:00:33] RESUMO DA EXECUÇÃO:
+[2026-03-15 03:00:33]   - UPDATE 1 (Média ponderada): 10135 produtos atualizados
+[2026-03-15 03:00:33]   - UPDATE 2 (Produtos novos): 36 produtos atualizados
+[2026-03-15 03:00:33]   - UPDATE 3 (Sem movimentação): 13985 produtos atualizados
+[2026-03-15 03:00:33]   - TOTAL GERAL: 24156 produtos atualizados
+[2026-03-15 03:00:33] ✅ EXECUÇÃO CONCLUÍDA COM SUCESSO!
+[2026-03-15 03:00:33] ================================================================================
+--------------------------------------------------------------------------------
+[2026-03-15 03:00:33] Conexão com banco de dados encerrada
+--------------------------------------------------------------------------------
+[2026-03-16 03:00:01] ================================================================================
+[2026-03-16 03:00:01] INÍCIO DA EXECUÇÃO - Atualização de Estoque Mínimo e Ideal
+[2026-03-16 03:00:01] Filial: 22
+[2026-03-16 03:00:01] ================================================================================
+[2026-03-16 03:00:01] Conectando ao servidor LOCAL: localhost\shopcontrol9
+[2026-03-16 03:00:01] ✅ Conexão estabelecida com sucesso!
+[2026-03-16 03:00:01] Buscando Ordem da Filial 22...
+[2026-03-16 03:00:01] ✅ Ordem da Filial encontrada: 1
+[2026-03-16 03:00:01] Iniciando UPDATE 1: Produtos com média ponderada de vendas...
+[2026-03-16 03:00:13] ✅ UPDATE 1 concluído: 10072 registros atualizados
+[2026-03-16 03:00:13] Iniciando UPDATE 2: Produtos novos (cadastrados há menos de 30 dias)...
+[2026-03-16 03:00:13] ✅ UPDATE 2 concluído: 35 registros atualizados
+[2026-03-16 03:00:13] Iniciando UPDATE 3: Produtos sem movimentação nos últimos 730 dias...
+[2026-03-16 03:00:34] ✅ UPDATE 3 concluído: 14004 registros atualizados
+[2026-03-16 03:00:34] ✅ COMMIT realizado com sucesso
+[2026-03-16 03:00:34] ================================================================================
+[2026-03-16 03:00:34] RESUMO DA EXECUÇÃO:
+[2026-03-16 03:00:34]   - UPDATE 1 (Média ponderada): 10072 produtos atualizados
+[2026-03-16 03:00:34]   - UPDATE 2 (Produtos novos): 35 produtos atualizados
+[2026-03-16 03:00:34]   - UPDATE 3 (Sem movimentação): 14004 produtos atualizados
+[2026-03-16 03:00:34]   - TOTAL GERAL: 24111 produtos atualizados
+[2026-03-16 03:00:34] ✅ EXECUÇÃO CONCLUÍDA COM SUCESSO!
+[2026-03-16 03:00:34] ================================================================================
+--------------------------------------------------------------------------------
+[2026-03-16 03:00:34] Conexão com banco de dados encerrada
+--------------------------------------------------------------------------------
+[2026-03-17 03:00:01] ================================================================================
+[2026-03-17 03:00:01] INÍCIO DA EXECUÇÃO - Atualização de Estoque Mínimo e Ideal
+[2026-03-17 03:00:01] Filial: 22
+[2026-03-17 03:00:01] ================================================================================
+[2026-03-17 03:00:01] Conectando ao servidor LOCAL: localhost\shopcontrol9
+[2026-03-17 03:00:01] ✅ Conexão estabelecida com sucesso!
+[2026-03-17 03:00:01] Buscando Ordem da Filial 22...
+[2026-03-17 03:00:01] ✅ Ordem da Filial encontrada: 1
+[2026-03-17 03:00:01] Iniciando UPDATE 1: Produtos com média ponderada de vendas...
+[2026-03-17 03:00:13] ✅ UPDATE 1 concluído: 10095 registros atualizados
+[2026-03-17 03:00:13] Iniciando UPDATE 2: Produtos novos (cadastrados há menos de 30 dias)...
+[2026-03-17 03:00:13] ✅ UPDATE 2 concluído: 39 registros atualizados
+[2026-03-17 03:00:13] Iniciando UPDATE 3: Produtos sem movimentação nos últimos 730 dias...
+[2026-03-17 03:00:36] ✅ UPDATE 3 concluído: 13985 registros atualizados
+[2026-03-17 03:00:36] ✅ COMMIT realizado com sucesso
+[2026-03-17 03:00:36] ================================================================================
+[2026-03-17 03:00:36] RESUMO DA EXECUÇÃO:
+[2026-03-17 03:00:36]   - UPDATE 1 (Média ponderada): 10095 produtos atualizados
+[2026-03-17 03:00:36]   - UPDATE 2 (Produtos novos): 39 produtos atualizados
+[2026-03-17 03:00:36]   - UPDATE 3 (Sem movimentação): 13985 produtos atualizados
+[2026-03-17 03:00:36]   - TOTAL GERAL: 24119 produtos atualizados
+[2026-03-17 03:00:36] ✅ EXECUÇÃO CONCLUÍDA COM SUCESSO!
+[2026-03-17 03:00:36] ================================================================================
+--------------------------------------------------------------------------------
+[2026-03-17 03:00:36] Conexão com banco de dados encerrada
+--------------------------------------------------------------------------------
+[2026-03-18 03:00:01] ================================================================================
+[2026-03-18 03:00:01] INÍCIO DA EXECUÇÃO - Atualização de Estoque Mínimo e Ideal
+[2026-03-18 03:00:01] Filial: 22
+[2026-03-18 03:00:01] ================================================================================
+[2026-03-18 03:00:01] Conectando ao servidor LOCAL: localhost\shopcontrol9
+[2026-03-18 03:00:01] ✅ Conexão estabelecida com sucesso!
+[2026-03-18 03:00:01] Buscando Ordem da Filial 22...
+[2026-03-18 03:00:01] ✅ Ordem da Filial encontrada: 1
+[2026-03-18 03:00:01] Iniciando UPDATE 1: Produtos com média ponderada de vendas...
+[2026-03-18 03:00:12] ✅ UPDATE 1 concluído: 10081 registros atualizados
+[2026-03-18 03:00:12] Iniciando UPDATE 2: Produtos novos (cadastrados há menos de 30 dias)...
+[2026-03-18 03:00:12] ✅ UPDATE 2 concluído: 42 registros atualizados
+[2026-03-18 03:00:12] Iniciando UPDATE 3: Produtos sem movimentação nos últimos 730 dias...
+[2026-03-18 03:00:32] ✅ UPDATE 3 concluído: 13973 registros atualizados
+[2026-03-18 03:00:32] ✅ COMMIT realizado com sucesso
+[2026-03-18 03:00:32] ================================================================================
+[2026-03-18 03:00:32] RESUMO DA EXECUÇÃO:
+[2026-03-18 03:00:32]   - UPDATE 1 (Média ponderada): 10081 produtos atualizados
+[2026-03-18 03:00:32]   - UPDATE 2 (Produtos novos): 42 produtos atualizados
+[2026-03-18 03:00:32]   - UPDATE 3 (Sem movimentação): 13973 produtos atualizados
+[2026-03-18 03:00:32]   - TOTAL GERAL: 24096 produtos atualizados
+[2026-03-18 03:00:32] ✅ EXECUÇÃO CONCLUÍDA COM SUCESSO!
+[2026-03-18 03:00:32] ================================================================================
+--------------------------------------------------------------------------------
+[2026-03-18 03:00:32] Conexão com banco de dados encerrada
+--------------------------------------------------------------------------------
+[2026-03-19 03:00:01] ================================================================================
+[2026-03-19 03:00:01] INÍCIO DA EXECUÇÃO - Atualização de Estoque Mínimo e Ideal
+[2026-03-19 03:00:01] Filial: 22
+[2026-03-19 03:00:01] ================================================================================
+[2026-03-19 03:00:01] Conectando ao servidor LOCAL: localhost\shopcontrol9
+[2026-03-19 03:00:01] ✅ Conexão estabelecida com sucesso!
+[2026-03-19 03:00:01] Buscando Ordem da Filial 22...
+[2026-03-19 03:00:01] ✅ Ordem da Filial encontrada: 1
+[2026-03-19 03:00:01] Iniciando UPDATE 1: Produtos com média ponderada de vendas...
+[2026-03-19 03:00:12] ✅ UPDATE 1 concluído: 10106 registros atualizados
+[2026-03-19 03:00:12] Iniciando UPDATE 2: Produtos novos (cadastrados há menos de 30 dias)...
+[2026-03-19 03:00:12] ✅ UPDATE 2 concluído: 42 registros atualizados
+[2026-03-19 03:00:12] Iniciando UPDATE 3: Produtos sem movimentação nos últimos 730 dias...
+[2026-03-19 03:00:32] ✅ UPDATE 3 concluído: 13973 registros atualizados
+[2026-03-19 03:00:32] ✅ COMMIT realizado com sucesso
+[2026-03-19 03:00:32] ================================================================================
+[2026-03-19 03:00:32] RESUMO DA EXECUÇÃO:
+[2026-03-19 03:00:32]   - UPDATE 1 (Média ponderada): 10106 produtos atualizados
+[2026-03-19 03:00:32]   - UPDATE 2 (Produtos novos): 42 produtos atualizados
+[2026-03-19 03:00:32]   - UPDATE 3 (Sem movimentação): 13973 produtos atualizados
+[2026-03-19 03:00:32]   - TOTAL GERAL: 24121 produtos atualizados
+[2026-03-19 03:00:32] ✅ EXECUÇÃO CONCLUÍDA COM SUCESSO!
+[2026-03-19 03:00:32] ================================================================================
+--------------------------------------------------------------------------------
+[2026-03-19 03:00:32] Conexão com banco de dados encerrada
+--------------------------------------------------------------------------------
+[2026-03-20 03:00:01] ================================================================================
+[2026-03-20 03:00:01] INÍCIO DA EXECUÇÃO - Atualização de Estoque Mínimo e Ideal
+[2026-03-20 03:00:01] Filial: 22
+[2026-03-20 03:00:01] ================================================================================
+[2026-03-20 03:00:01] Conectando ao servidor LOCAL: localhost\shopcontrol9
+[2026-03-20 03:00:01] ✅ Conexão estabelecida com sucesso!
+[2026-03-20 03:00:01] Buscando Ordem da Filial 22...
+[2026-03-20 03:00:01] ✅ Ordem da Filial encontrada: 1
+[2026-03-20 03:00:01] Iniciando UPDATE 1: Produtos com média ponderada de vendas...
+[2026-03-20 03:00:13] ✅ UPDATE 1 concluído: 10107 registros atualizados
+[2026-03-20 03:00:13] Iniciando UPDATE 2: Produtos novos (cadastrados há menos de 30 dias)...
+[2026-03-20 03:00:13] ✅ UPDATE 2 concluído: 44 registros atualizados
+[2026-03-20 03:00:13] Iniciando UPDATE 3: Produtos sem movimentação nos últimos 730 dias...
+[2026-03-20 03:00:36] ✅ UPDATE 3 concluído: 13969 registros atualizados
+[2026-03-20 03:00:36] ✅ COMMIT realizado com sucesso
+[2026-03-20 03:00:36] ================================================================================
+[2026-03-20 03:00:36] RESUMO DA EXECUÇÃO:
+[2026-03-20 03:00:36]   - UPDATE 1 (Média ponderada): 10107 produtos atualizados
+[2026-03-20 03:00:36]   - UPDATE 2 (Produtos novos): 44 produtos atualizados
+[2026-03-20 03:00:36]   - UPDATE 3 (Sem movimentação): 13969 produtos atualizados
+[2026-03-20 03:00:36]   - TOTAL GERAL: 24120 produtos atualizados
+[2026-03-20 03:00:36] ✅ EXECUÇÃO CONCLUÍDA COM SUCESSO!
+[2026-03-20 03:00:36] ================================================================================
+--------------------------------------------------------------------------------
+[2026-03-20 03:00:36] Conexão com banco de dados encerrada
+--------------------------------------------------------------------------------
+[2026-03-21 03:00:01] ================================================================================
+[2026-03-21 03:00:01] INÍCIO DA EXECUÇÃO - Atualização de Estoque Mínimo e Ideal
+[2026-03-21 03:00:01] Filial: 22
+[2026-03-21 03:00:01] ================================================================================
+[2026-03-21 03:00:01] Conectando ao servidor LOCAL: localhost\shopcontrol9
+[2026-03-21 03:00:01] ✅ Conexão estabelecida com sucesso!
+[2026-03-21 03:00:01] Buscando Ordem da Filial 22...
+[2026-03-21 03:00:01] ✅ Ordem da Filial encontrada: 1
+[2026-03-21 03:00:01] Iniciando UPDATE 1: Produtos com média ponderada de vendas...
+[2026-03-21 03:00:12] ✅ UPDATE 1 concluído: 10146 registros atualizados
+[2026-03-21 03:00:12] Iniciando UPDATE 2: Produtos novos (cadastrados há menos de 30 dias)...
+[2026-03-21 03:00:12] ✅ UPDATE 2 concluído: 43 registros atualizados
+[2026-03-21 03:00:12] Iniciando UPDATE 3: Produtos sem movimentação nos últimos 730 dias...
+[2026-03-21 03:00:33] ✅ UPDATE 3 concluído: 13988 registros atualizados
+[2026-03-21 03:00:33] ✅ COMMIT realizado com sucesso
+[2026-03-21 03:00:33] ================================================================================
+[2026-03-21 03:00:33] RESUMO DA EXECUÇÃO:
+[2026-03-21 03:00:33]   - UPDATE 1 (Média ponderada): 10146 produtos atualizados
+[2026-03-21 03:00:33]   - UPDATE 2 (Produtos novos): 43 produtos atualizados
+[2026-03-21 03:00:33]   - UPDATE 3 (Sem movimentação): 13988 produtos atualizados
+[2026-03-21 03:00:33]   - TOTAL GERAL: 24177 produtos atualizados
+[2026-03-21 03:00:33] ✅ EXECUÇÃO CONCLUÍDA COM SUCESSO!
+[2026-03-21 03:00:33] ================================================================================
+--------------------------------------------------------------------------------
+[2026-03-21 03:00:33] Conexão com banco de dados encerrada
+--------------------------------------------------------------------------------
+[2026-03-22 03:00:01] ================================================================================
+[2026-03-22 03:00:01] INÍCIO DA EXECUÇÃO - Atualização de Estoque Mínimo e Ideal
+[2026-03-22 03:00:01] Filial: 22
+[2026-03-22 03:00:01] ================================================================================
+[2026-03-22 03:00:01] Conectando ao servidor LOCAL: localhost\shopcontrol9
+[2026-03-22 03:00:01] ✅ Conexão estabelecida com sucesso!
+[2026-03-22 03:00:01] Buscando Ordem da Filial 22...
+[2026-03-22 03:00:01] ✅ Ordem da Filial encontrada: 1
+[2026-03-22 03:00:01] Iniciando UPDATE 1: Produtos com média ponderada de vendas...
+[2026-03-22 03:00:13] ✅ UPDATE 1 concluído: 10163 registros atualizados
+[2026-03-22 03:00:13] Iniciando UPDATE 2: Produtos novos (cadastrados há menos de 30 dias)...
+[2026-03-22 03:00:13] ✅ UPDATE 2 concluído: 41 registros atualizados
+[2026-03-22 03:00:13] Iniciando UPDATE 3: Produtos sem movimentação nos últimos 730 dias...
+[2026-03-22 03:00:35] ✅ UPDATE 3 concluído: 14003 registros atualizados
+[2026-03-22 03:00:35] ✅ COMMIT realizado com sucesso
+[2026-03-22 03:00:35] ================================================================================
+[2026-03-22 03:00:35] RESUMO DA EXECUÇÃO:
+[2026-03-22 03:00:35]   - UPDATE 1 (Média ponderada): 10163 produtos atualizados
+[2026-03-22 03:00:35]   - UPDATE 2 (Produtos novos): 41 produtos atualizados
+[2026-03-22 03:00:35]   - UPDATE 3 (Sem movimentação): 14003 produtos atualizados
+[2026-03-22 03:00:35]   - TOTAL GERAL: 24207 produtos atualizados
+[2026-03-22 03:00:35] ✅ EXECUÇÃO CONCLUÍDA COM SUCESSO!
+[2026-03-22 03:00:35] ================================================================================
+--------------------------------------------------------------------------------
+[2026-03-22 03:00:35] Conexão com banco de dados encerrada
+--------------------------------------------------------------------------------
+[2026-03-23 03:00:01] ================================================================================
+[2026-03-23 03:00:01] INÍCIO DA EXECUÇÃO - Atualização de Estoque Mínimo e Ideal
+[2026-03-23 03:00:01] Filial: 22
+[2026-03-23 03:00:01] ================================================================================
+[2026-03-23 03:00:01] Conectando ao servidor LOCAL: localhost\shopcontrol9
+[2026-03-23 03:00:01] ✅ Conexão estabelecida com sucesso!
+[2026-03-23 03:00:01] Buscando Ordem da Filial 22...
+[2026-03-23 03:00:01] ✅ Ordem da Filial encontrada: 1
+[2026-03-23 03:00:01] Iniciando UPDATE 1: Produtos com média ponderada de vendas...
+[2026-03-23 03:00:13] ✅ UPDATE 1 concluído: 10070 registros atualizados
+[2026-03-23 03:00:13] Iniciando UPDATE 2: Produtos novos (cadastrados há menos de 30 dias)...
+[2026-03-23 03:00:13] ✅ UPDATE 2 concluído: 36 registros atualizados
+[2026-03-23 03:00:13] Iniciando UPDATE 3: Produtos sem movimentação nos últimos 730 dias...
+[2026-03-23 03:00:36] ✅ UPDATE 3 concluído: 14013 registros atualizados
+[2026-03-23 03:00:36] ✅ COMMIT realizado com sucesso
+[2026-03-23 03:00:36] ================================================================================
+[2026-03-23 03:00:36] RESUMO DA EXECUÇÃO:
+[2026-03-23 03:00:36]   - UPDATE 1 (Média ponderada): 10070 produtos atualizados
+[2026-03-23 03:00:36]   - UPDATE 2 (Produtos novos): 36 produtos atualizados
+[2026-03-23 03:00:36]   - UPDATE 3 (Sem movimentação): 14013 produtos atualizados
+[2026-03-23 03:00:36]   - TOTAL GERAL: 24119 produtos atualizados
+[2026-03-23 03:00:36] ✅ EXECUÇÃO CONCLUÍDA COM SUCESSO!
+[2026-03-23 03:00:36] ================================================================================
+--------------------------------------------------------------------------------
+[2026-03-23 03:00:36] Conexão com banco de dados encerrada
+--------------------------------------------------------------------------------
+[2026-03-24 03:00:01] ================================================================================
+[2026-03-24 03:00:01] INÍCIO DA EXECUÇÃO - Atualização de Estoque Mínimo e Ideal
+[2026-03-24 03:00:01] Filial: 22
+[2026-03-24 03:00:01] ================================================================================
+[2026-03-24 03:00:01] Conectando ao servidor LOCAL: localhost\shopcontrol9
+[2026-03-24 03:00:01] ✅ Conexão estabelecida com sucesso!
+[2026-03-24 03:00:01] Buscando Ordem da Filial 22...
+[2026-03-24 03:00:01] ✅ Ordem da Filial encontrada: 1
+[2026-03-24 03:00:01] Iniciando UPDATE 1: Produtos com média ponderada de vendas...
+[2026-03-24 03:00:12] ✅ UPDATE 1 concluído: 10046 registros atualizados
+[2026-03-24 03:00:12] Iniciando UPDATE 2: Produtos novos (cadastrados há menos de 30 dias)...
+[2026-03-24 03:00:12] ✅ UPDATE 2 concluído: 37 registros atualizados
+[2026-03-24 03:00:12] Iniciando UPDATE 3: Produtos sem movimentação nos últimos 730 dias...
+[2026-03-24 03:00:33] ✅ UPDATE 3 concluído: 14000 registros atualizados
+[2026-03-24 03:00:33] ✅ COMMIT realizado com sucesso
+[2026-03-24 03:00:33] ================================================================================
+[2026-03-24 03:00:33] RESUMO DA EXECUÇÃO:
+[2026-03-24 03:00:33]   - UPDATE 1 (Média ponderada): 10046 produtos atualizados
+[2026-03-24 03:00:33]   - UPDATE 2 (Produtos novos): 37 produtos atualizados
+[2026-03-24 03:00:33]   - UPDATE 3 (Sem movimentação): 14000 produtos atualizados
+[2026-03-24 03:00:33]   - TOTAL GERAL: 24083 produtos atualizados
+[2026-03-24 03:00:33] ✅ EXECUÇÃO CONCLUÍDA COM SUCESSO!
+[2026-03-24 03:00:33] ================================================================================
+--------------------------------------------------------------------------------
+[2026-03-24 03:00:33] Conexão com banco de dados encerrada
+--------------------------------------------------------------------------------
+[2026-03-25 03:00:01] ================================================================================
+[2026-03-25 03:00:01] INÍCIO DA EXECUÇÃO - Atualização de Estoque Mínimo e Ideal
+[2026-03-25 03:00:01] Filial: 22
+[2026-03-25 03:00:01] ================================================================================
+[2026-03-25 03:00:01] Conectando ao servidor LOCAL: localhost\shopcontrol9
+[2026-03-25 03:00:01] ✅ Conexão estabelecida com sucesso!
+[2026-03-25 03:00:01] Buscando Ordem da Filial 22...
+[2026-03-25 03:00:01] ✅ Ordem da Filial encontrada: 1
+[2026-03-25 03:00:01] Iniciando UPDATE 1: Produtos com média ponderada de vendas...
+[2026-03-25 03:00:04] ✅ UPDATE 1 concluído: 10114 registros atualizados
+[2026-03-25 03:00:04] Iniciando UPDATE 2: Produtos novos (cadastrados há menos de 30 dias)...
+[2026-03-25 03:00:04] ✅ UPDATE 2 concluído: 38 registros atualizados
+[2026-03-25 03:00:04] Iniciando UPDATE 3: Produtos sem movimentação nos últimos 730 dias...
+[2026-03-25 03:00:14] ✅ UPDATE 3 concluído: 13985 registros atualizados
+[2026-03-25 03:00:14] ✅ COMMIT realizado com sucesso
+[2026-03-25 03:00:14] ================================================================================
+[2026-03-25 03:00:14] RESUMO DA EXECUÇÃO:
+[2026-03-25 03:00:14]   - UPDATE 1 (Média ponderada): 10114 produtos atualizados
+[2026-03-25 03:00:14]   - UPDATE 2 (Produtos novos): 38 produtos atualizados
+[2026-03-25 03:00:14]   - UPDATE 3 (Sem movimentação): 13985 produtos atualizados
+[2026-03-25 03:00:14]   - TOTAL GERAL: 24137 produtos atualizados
+[2026-03-25 03:00:14] ✅ EXECUÇÃO CONCLUÍDA COM SUCESSO!
+[2026-03-25 03:00:14] ================================================================================
+--------------------------------------------------------------------------------
+[2026-03-25 03:00:14] Conexão com banco de dados encerrada
+--------------------------------------------------------------------------------
+[2026-03-26 03:00:01] ================================================================================
+[2026-03-26 03:00:01] INÍCIO DA EXECUÇÃO - Atualização de Estoque Mínimo e Ideal
+[2026-03-26 03:00:01] Filial: 22
+[2026-03-26 03:00:01] ================================================================================
+[2026-03-26 03:00:01] Conectando ao servidor LOCAL: localhost\shopcontrol9
+[2026-03-26 03:00:01] ✅ Conexão estabelecida com sucesso!
+[2026-03-26 03:00:01] Buscando Ordem da Filial 22...
+[2026-03-26 03:00:01] ✅ Ordem da Filial encontrada: 1
+[2026-03-26 03:00:01] Iniciando UPDATE 1: Produtos com média ponderada de vendas...
+[2026-03-26 03:00:04] ✅ UPDATE 1 concluído: 10210 registros atualizados
+[2026-03-26 03:00:04] Iniciando UPDATE 2: Produtos novos (cadastrados há menos de 30 dias)...
+[2026-03-26 03:00:04] ✅ UPDATE 2 concluído: 37 registros atualizados
+[2026-03-26 03:00:04] Iniciando UPDATE 3: Produtos sem movimentação nos últimos 730 dias...
+[2026-03-26 03:00:14] ✅ UPDATE 3 concluído: 13985 registros atualizados
+[2026-03-26 03:00:14] ✅ COMMIT realizado com sucesso
+[2026-03-26 03:00:14] ================================================================================
+[2026-03-26 03:00:14] RESUMO DA EXECUÇÃO:
+[2026-03-26 03:00:14]   - UPDATE 1 (Média ponderada): 10210 produtos atualizados
+[2026-03-26 03:00:14]   - UPDATE 2 (Produtos novos): 37 produtos atualizados
+[2026-03-26 03:00:14]   - UPDATE 3 (Sem movimentação): 13985 produtos atualizados
+[2026-03-26 03:00:14]   - TOTAL GERAL: 24232 produtos atualizados
+[2026-03-26 03:00:14] ✅ EXECUÇÃO CONCLUÍDA COM SUCESSO!
+[2026-03-26 03:00:14] ================================================================================
+--------------------------------------------------------------------------------
+[2026-03-26 03:00:14] Conexão com banco de dados encerrada

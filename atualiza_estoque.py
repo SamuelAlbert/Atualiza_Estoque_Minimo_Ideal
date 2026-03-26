@@ -136,7 +136,7 @@ def executar_update_1(cursor, ordem_filial):
                                      AND M.Data_Passou_Efetivacao_Estoque < DATEADD(DAY, 1, @DataFinal)
                                 THEN 
                                     CASE 
-                                        WHEN M.Tipo_Operacao IN ('VND', 'VPC', 'VEF') THEN MPS.Quantidade
+                                        WHEN M.Tipo_Operacao IN ('VND', 'VPC', 'VEF') OR (M.Tipo_Operacao IN ('AJS') AND OP.Codigo = 521) THEN MPS.Quantidade
                                         ELSE MPS.Quantidade * -1 
                                     END
                                 ELSE 0 
@@ -148,7 +148,7 @@ def executar_update_1(cursor, ordem_filial):
                                      AND M.Data_Passou_Efetivacao_Estoque < @Data30Dias
                                 THEN 
                                     CASE 
-                                        WHEN M.Tipo_Operacao IN ('VND', 'VPC', 'VEF') THEN MPS.Quantidade
+                                        WHEN M.Tipo_Operacao IN ('VND', 'VPC', 'VEF') OR (M.Tipo_Operacao IN ('AJS') AND OP.Codigo = 521) THEN MPS.Quantidade
                                         ELSE MPS.Quantidade * -1 
                                     END
                                 ELSE 0 
@@ -160,7 +160,7 @@ def executar_update_1(cursor, ordem_filial):
                                      AND M.Data_Passou_Efetivacao_Estoque < @Data60Dias
                                 THEN 
                                     CASE 
-                                        WHEN M.Tipo_Operacao IN ('VND', 'VPC', 'VEF') THEN MPS.Quantidade
+                                        WHEN M.Tipo_Operacao IN ('VND', 'VPC', 'VEF') OR (M.Tipo_Operacao IN ('AJS') AND OP.Codigo = 521) THEN MPS.Quantidade
                                         ELSE MPS.Quantidade * -1 
                                     END
                                 ELSE 0 
@@ -176,7 +176,7 @@ def executar_update_1(cursor, ordem_filial):
                                      AND M.Data_Passou_Efetivacao_Estoque < DATEADD(DAY, 1, @DataFinal)
                                 THEN 
                                     CASE 
-                                        WHEN M.Tipo_Operacao IN ('VND', 'VPC', 'VEF') THEN MPS.Quantidade
+                                        WHEN M.Tipo_Operacao IN ('VND', 'VPC', 'VEF') OR (M.Tipo_Operacao IN ('AJS') AND OP.Codigo = 521) THEN MPS.Quantidade
                                         ELSE MPS.Quantidade * -1 
                                     END
                                 ELSE 0 
@@ -188,7 +188,7 @@ def executar_update_1(cursor, ordem_filial):
                                      AND M.Data_Passou_Efetivacao_Estoque < @Data30Dias
                                 THEN 
                                     CASE 
-                                        WHEN M.Tipo_Operacao IN ('VND', 'VPC', 'VEF') THEN MPS.Quantidade
+                                        WHEN M.Tipo_Operacao IN ('VND', 'VPC', 'VEF') OR (M.Tipo_Operacao IN ('AJS') AND OP.Codigo = 521) THEN MPS.Quantidade
                                         ELSE MPS.Quantidade * -1 
                                     END
                                 ELSE 0 
@@ -200,7 +200,7 @@ def executar_update_1(cursor, ordem_filial):
                                      AND M.Data_Passou_Efetivacao_Estoque < @Data60Dias
                                 THEN 
                                     CASE 
-                                        WHEN M.Tipo_Operacao IN ('VND', 'VPC', 'VEF') THEN MPS.Quantidade
+                                        WHEN M.Tipo_Operacao IN ('VND', 'VPC', 'VEF') OR (M.Tipo_Operacao IN ('AJS') AND OP.Codigo = 521) THEN MPS.Quantidade
                                         ELSE MPS.Quantidade * -1 
                                     END
                                 ELSE 0 
@@ -216,7 +216,7 @@ def executar_update_1(cursor, ordem_filial):
                                      AND M.Data_Passou_Efetivacao_Estoque < DATEADD(DAY, 1, @DataFinal)
                                 THEN 
                                     CASE 
-                                        WHEN M.Tipo_Operacao IN ('VND', 'VPC', 'VEF') THEN MPS.Quantidade
+                                        WHEN M.Tipo_Operacao IN ('VND', 'VPC', 'VEF') OR (M.Tipo_Operacao IN ('AJS') AND OP.Codigo = 521) THEN MPS.Quantidade
                                         ELSE MPS.Quantidade * -1 
                                     END
                                 ELSE 0 
@@ -228,7 +228,7 @@ def executar_update_1(cursor, ordem_filial):
                                      AND M.Data_Passou_Efetivacao_Estoque < @Data30Dias
                                 THEN 
                                     CASE 
-                                        WHEN M.Tipo_Operacao IN ('VND', 'VPC', 'VEF') THEN MPS.Quantidade
+                                        WHEN M.Tipo_Operacao IN ('VND', 'VPC', 'VEF') OR (M.Tipo_Operacao IN ('AJS') AND OP.Codigo = 521) THEN MPS.Quantidade
                                         ELSE MPS.Quantidade * -1 
                                     END
                                 ELSE 0 
@@ -240,7 +240,7 @@ def executar_update_1(cursor, ordem_filial):
                                      AND M.Data_Passou_Efetivacao_Estoque < @Data60Dias
                                 THEN 
                                     CASE 
-                                        WHEN M.Tipo_Operacao IN ('VND', 'VPC', 'VEF') THEN MPS.Quantidade
+                                        WHEN M.Tipo_Operacao IN ('VND', 'VPC', 'VEF') OR (M.Tipo_Operacao IN ('AJS') AND OP.Codigo = 521) THEN MPS.Quantidade
                                         ELSE MPS.Quantidade * -1 
                                     END
                                 ELSE 0 
@@ -259,7 +259,7 @@ def executar_update_1(cursor, ordem_filial):
                                      AND M.Data_Passou_Efetivacao_Estoque < DATEADD(DAY, 1, @DataFinal)
                                 THEN 
                                     CASE 
-                                        WHEN M.Tipo_Operacao IN ('VND', 'VPC', 'VEF') THEN MPS.Quantidade
+                                        WHEN M.Tipo_Operacao IN ('VND', 'VPC', 'VEF') OR (M.Tipo_Operacao IN ('AJS') AND OP.Codigo = 521) THEN MPS.Quantidade
                                         ELSE MPS.Quantidade * -1 
                                     END
                                 ELSE 0 
@@ -271,7 +271,7 @@ def executar_update_1(cursor, ordem_filial):
                                      AND M.Data_Passou_Efetivacao_Estoque < @Data30Dias
                                 THEN 
                                     CASE 
-                                        WHEN M.Tipo_Operacao IN ('VND', 'VPC', 'VEF') THEN MPS.Quantidade
+                                        WHEN M.Tipo_Operacao IN ('VND', 'VPC', 'VEF') OR (M.Tipo_Operacao IN ('AJS') AND OP.Codigo = 521) THEN MPS.Quantidade
                                         ELSE MPS.Quantidade * -1 
                                     END
                                 ELSE 0 
@@ -283,7 +283,7 @@ def executar_update_1(cursor, ordem_filial):
                                      AND M.Data_Passou_Efetivacao_Estoque < @Data60Dias
                                 THEN 
                                     CASE 
-                                        WHEN M.Tipo_Operacao IN ('VND', 'VPC', 'VEF') THEN MPS.Quantidade
+                                        WHEN M.Tipo_Operacao IN ('VND', 'VPC', 'VEF') OR (M.Tipo_Operacao IN ('AJS') AND OP.Codigo = 521) THEN MPS.Quantidade
                                         ELSE MPS.Quantidade * -1 
                                     END
                                 ELSE 0 
@@ -299,7 +299,7 @@ def executar_update_1(cursor, ordem_filial):
                                      AND M.Data_Passou_Efetivacao_Estoque < DATEADD(DAY, 1, @DataFinal)
                                 THEN 
                                     CASE 
-                                        WHEN M.Tipo_Operacao IN ('VND', 'VPC', 'VEF') THEN MPS.Quantidade
+                                        WHEN M.Tipo_Operacao IN ('VND', 'VPC', 'VEF') OR (M.Tipo_Operacao IN ('AJS') AND OP.Codigo = 521) THEN MPS.Quantidade
                                         ELSE MPS.Quantidade * -1 
                                     END
                                 ELSE 0 
@@ -311,7 +311,7 @@ def executar_update_1(cursor, ordem_filial):
                                      AND M.Data_Passou_Efetivacao_Estoque < @Data30Dias
                                 THEN 
                                     CASE 
-                                        WHEN M.Tipo_Operacao IN ('VND', 'VPC', 'VEF') THEN MPS.Quantidade
+                                        WHEN M.Tipo_Operacao IN ('VND', 'VPC', 'VEF') OR (M.Tipo_Operacao IN ('AJS') AND OP.Codigo = 521) THEN MPS.Quantidade
                                         ELSE MPS.Quantidade * -1 
                                     END
                                 ELSE 0 
@@ -323,7 +323,7 @@ def executar_update_1(cursor, ordem_filial):
                                      AND M.Data_Passou_Efetivacao_Estoque < @Data60Dias
                                 THEN 
                                     CASE 
-                                        WHEN M.Tipo_Operacao IN ('VND', 'VPC', 'VEF') THEN MPS.Quantidade
+                                        WHEN M.Tipo_Operacao IN ('VND', 'VPC', 'VEF') OR (M.Tipo_Operacao IN ('AJS') AND OP.Codigo = 521) THEN MPS.Quantidade
                                         ELSE MPS.Quantidade * -1 
                                     END
                                 ELSE 0 
@@ -347,7 +347,11 @@ def executar_update_1(cursor, ordem_filial):
             AND M.Data_Passou_Efetivacao_Estoque < DATEADD(DAY, 1, @DataFinal)
             AND M.Data_Passou_Desefetivacao_Estoque IS NULL
             AND M.Data_Passou_Efetivacao_Estoque IS NOT NULL
-            AND M.Tipo_Operacao IN ('VND', 'VPC', 'VEF', 'DEV', 'CVE')
+            AND (
+                M.Tipo_Operacao IN ('VND', 'VPC', 'VEF', 'DEV', 'CVE')
+                OR
+                (M.Tipo_Operacao IN ('AJS') AND OP.Codigo = 521)
+            )
         GROUP BY
             PS.Ordem,
             EA.Ordem_Filial

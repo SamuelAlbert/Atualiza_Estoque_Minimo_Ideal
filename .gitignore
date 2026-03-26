@@ -43,3 +43,4 @@ $RECYCLE.BIN/
 *.bak
 *.backup
 *.tmp
+log_sucesso.txt
