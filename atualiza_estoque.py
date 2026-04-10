@@ -337,6 +337,7 @@ def executar_update_1(cursor, ordem_filial):
             INNER JOIN Prod_Serv PS ON PS.Ordem = EA.Ordem_Prod_Serv
             INNER JOIN Movimento_Prod_Serv MPS ON MPS.Ordem_Prod_Serv = PS.Ordem
             INNER JOIN Movimento M ON M.Ordem = MPS.Ordem_Movimento
+            LEFT JOIN Operacoes OP ON OP.Ordem = M.Ordem_Operacao
         WHERE
             EA.Ordem_Filial = @OrdemFilial
             AND M.Ordem_Filial = @OrdemFilial

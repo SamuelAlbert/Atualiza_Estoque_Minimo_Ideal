@@ -1,7 +1,5 @@
 # Arquivo de desenvolvimento (documentação interna)
 Script_Desenvolvimento_Atualiza_Estoque_Minimo.docx
-
-# Arquivos de log
 log_sucesso.txt
 log_erro.txt
 *.log

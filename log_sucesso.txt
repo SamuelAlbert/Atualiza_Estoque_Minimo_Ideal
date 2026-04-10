@@ -1144,3 +1144,227 @@
 [2026-03-26 03:00:14] ================================================================================
 --------------------------------------------------------------------------------
 [2026-03-26 03:00:14] Conexão com banco de dados encerrada
+--------------------------------------------------------------------------------
+[2026-03-27 03:00:01] ================================================================================
+[2026-03-27 03:00:01] INÍCIO DA EXECUÇÃO - Atualização de Estoque Mínimo e Ideal
+[2026-03-27 03:00:01] Filial: 22
+[2026-03-27 03:00:01] ================================================================================
+[2026-03-27 03:00:01] Conectando ao servidor LOCAL: localhost\shopcontrol9
+[2026-03-27 03:00:01] ✅ Conexão estabelecida com sucesso!
+[2026-03-27 03:00:01] Buscando Ordem da Filial 22...
+[2026-03-27 03:00:01] ✅ Ordem da Filial encontrada: 1
+[2026-03-27 03:00:01] Iniciando UPDATE 1: Produtos com média ponderada de vendas...
+[2026-03-27 03:00:01] Conexão com banco de dados encerrada
+--------------------------------------------------------------------------------
+[2026-03-28 03:00:01] ================================================================================
+[2026-03-28 03:00:01] INÍCIO DA EXECUÇÃO - Atualização de Estoque Mínimo e Ideal
+[2026-03-28 03:00:01] Filial: 22
+[2026-03-28 03:00:01] ================================================================================
+[2026-03-28 03:00:01] Conectando ao servidor LOCAL: localhost\shopcontrol9
+[2026-03-28 03:00:01] ✅ Conexão estabelecida com sucesso!
+[2026-03-28 03:00:01] Buscando Ordem da Filial 22...
+[2026-03-28 03:00:01] ✅ Ordem da Filial encontrada: 1
+[2026-03-28 03:00:01] Iniciando UPDATE 1: Produtos com média ponderada de vendas...
+[2026-03-28 03:00:01] Conexão com banco de dados encerrada
+--------------------------------------------------------------------------------
+[2026-03-29 03:00:01] ================================================================================
+[2026-03-29 03:00:01] INÍCIO DA EXECUÇÃO - Atualização de Estoque Mínimo e Ideal
+[2026-03-29 03:00:01] Filial: 22
+[2026-03-29 03:00:01] ================================================================================
+[2026-03-29 03:00:01] Conectando ao servidor LOCAL: localhost\shopcontrol9
+[2026-03-29 03:00:01] ✅ Conexão estabelecida com sucesso!
+[2026-03-29 03:00:01] Buscando Ordem da Filial 22...
+[2026-03-29 03:00:01] ✅ Ordem da Filial encontrada: 1
+[2026-03-29 03:00:01] Iniciando UPDATE 1: Produtos com média ponderada de vendas...
+[2026-03-29 03:00:01] Conexão com banco de dados encerrada
+--------------------------------------------------------------------------------
+[2026-03-30 03:00:01] ================================================================================
+[2026-03-30 03:00:01] INÍCIO DA EXECUÇÃO - Atualização de Estoque Mínimo e Ideal
+[2026-03-30 03:00:01] Filial: 22
+[2026-03-30 03:00:01] ================================================================================
+[2026-03-30 03:00:01] Conectando ao servidor LOCAL: localhost\shopcontrol9
+[2026-03-30 03:00:01] ✅ Conexão estabelecida com sucesso!
+[2026-03-30 03:00:01] Buscando Ordem da Filial 22...
+[2026-03-30 03:00:01] ✅ Ordem da Filial encontrada: 1
+[2026-03-30 03:00:01] Iniciando UPDATE 1: Produtos com média ponderada de vendas...
+[2026-03-30 03:00:01] Conexão com banco de dados encerrada
+--------------------------------------------------------------------------------
+[2026-03-31 03:00:01] ================================================================================
+[2026-03-31 03:00:01] INÍCIO DA EXECUÇÃO - Atualização de Estoque Mínimo e Ideal
+[2026-03-31 03:00:01] Filial: 22
+[2026-03-31 03:00:01] ================================================================================
+[2026-03-31 03:00:01] Conectando ao servidor LOCAL: localhost\shopcontrol9
+[2026-03-31 03:00:01] ✅ Conexão estabelecida com sucesso!
+[2026-03-31 03:00:01] Buscando Ordem da Filial 22...
+[2026-03-31 03:00:01] ✅ Ordem da Filial encontrada: 1
+[2026-03-31 03:00:01] Iniciando UPDATE 1: Produtos com média ponderada de vendas...
+[2026-03-31 03:00:01] Conexão com banco de dados encerrada
+--------------------------------------------------------------------------------
+[2026-04-01 03:00:01] ================================================================================
+[2026-04-01 03:00:01] INÍCIO DA EXECUÇÃO - Atualização de Estoque Mínimo e Ideal
+[2026-04-01 03:00:01] Filial: 22
+[2026-04-01 03:00:01] ================================================================================
+[2026-04-01 03:00:01] Conectando ao servidor LOCAL: localhost\shopcontrol9
+[2026-04-01 03:00:01] ✅ Conexão estabelecida com sucesso!
+[2026-04-01 03:00:01] Buscando Ordem da Filial 22...
+[2026-04-01 03:00:01] ✅ Ordem da Filial encontrada: 1
+[2026-04-01 03:00:01] Iniciando UPDATE 1: Produtos com média ponderada de vendas...
+[2026-04-01 03:00:01] Conexão com banco de dados encerrada
+--------------------------------------------------------------------------------
+[2026-04-02 03:00:01] ================================================================================
+[2026-04-02 03:00:01] INÍCIO DA EXECUÇÃO - Atualização de Estoque Mínimo e Ideal
+[2026-04-02 03:00:01] Filial: 22
+[2026-04-02 03:00:01] ================================================================================
+[2026-04-02 03:00:01] Conectando ao servidor LOCAL: localhost\shopcontrol9
+[2026-04-02 03:00:01] ✅ Conexão estabelecida com sucesso!
+[2026-04-02 03:00:01] Buscando Ordem da Filial 22...
+[2026-04-02 03:00:01] ✅ Ordem da Filial encontrada: 1
+[2026-04-02 03:00:01] Iniciando UPDATE 1: Produtos com média ponderada de vendas...
+[2026-04-02 03:00:01] Conexão com banco de dados encerrada
+--------------------------------------------------------------------------------
+[2026-04-03 03:00:01] ================================================================================
+[2026-04-03 03:00:01] INÍCIO DA EXECUÇÃO - Atualização de Estoque Mínimo e Ideal
+[2026-04-03 03:00:01] Filial: 22
+[2026-04-03 03:00:01] ================================================================================
+[2026-04-03 03:00:01] Conectando ao servidor LOCAL: localhost\shopcontrol9
+[2026-04-03 03:00:01] ✅ Conexão estabelecida com sucesso!
+[2026-04-03 03:00:01] Buscando Ordem da Filial 22...
+[2026-04-03 03:00:01] ✅ Ordem da Filial encontrada: 1
+[2026-04-03 03:00:01] Iniciando UPDATE 1: Produtos com média ponderada de vendas...
+[2026-04-03 03:00:01] Conexão com banco de dados encerrada
+--------------------------------------------------------------------------------
+[2026-04-04 03:00:01] ================================================================================
+[2026-04-04 03:00:01] INÍCIO DA EXECUÇÃO - Atualização de Estoque Mínimo e Ideal
+[2026-04-04 03:00:01] Filial: 22
+[2026-04-04 03:00:01] ================================================================================
+[2026-04-04 03:00:01] Conectando ao servidor LOCAL: localhost\shopcontrol9
+[2026-04-04 03:00:01] ✅ Conexão estabelecida com sucesso!
+[2026-04-04 03:00:01] Buscando Ordem da Filial 22...
+[2026-04-04 03:00:01] ✅ Ordem da Filial encontrada: 1
+[2026-04-04 03:00:01] Iniciando UPDATE 1: Produtos com média ponderada de vendas...
+[2026-04-04 03:00:01] Conexão com banco de dados encerrada
+--------------------------------------------------------------------------------
+[2026-04-05 03:00:01] ================================================================================
+[2026-04-05 03:00:01] INÍCIO DA EXECUÇÃO - Atualização de Estoque Mínimo e Ideal
+[2026-04-05 03:00:01] Filial: 22
+[2026-04-05 03:00:01] ================================================================================
+[2026-04-05 03:00:01] Conectando ao servidor LOCAL: localhost\shopcontrol9
+[2026-04-05 03:00:01] ✅ Conexão estabelecida com sucesso!
+[2026-04-05 03:00:01] Buscando Ordem da Filial 22...
+[2026-04-05 03:00:01] ✅ Ordem da Filial encontrada: 1
+[2026-04-05 03:00:01] Iniciando UPDATE 1: Produtos com média ponderada de vendas...
+[2026-04-05 03:00:01] Conexão com banco de dados encerrada
+--------------------------------------------------------------------------------
+[2026-04-06 03:00:01] ================================================================================
+[2026-04-06 03:00:01] INÍCIO DA EXECUÇÃO - Atualização de Estoque Mínimo e Ideal
+[2026-04-06 03:00:01] Filial: 22
+[2026-04-06 03:00:01] ================================================================================
+[2026-04-06 03:00:01] Conectando ao servidor LOCAL: localhost\shopcontrol9
+[2026-04-06 03:00:01] ✅ Conexão estabelecida com sucesso!
+[2026-04-06 03:00:01] Buscando Ordem da Filial 22...
+[2026-04-06 03:00:01] ✅ Ordem da Filial encontrada: 1
+[2026-04-06 03:00:01] Iniciando UPDATE 1: Produtos com média ponderada de vendas...
+[2026-04-06 03:00:01] Conexão com banco de dados encerrada
+--------------------------------------------------------------------------------
+[2026-04-07 03:00:01] ================================================================================
+[2026-04-07 03:00:01] INÍCIO DA EXECUÇÃO - Atualização de Estoque Mínimo e Ideal
+[2026-04-07 03:00:01] Filial: 22
+[2026-04-07 03:00:01] ================================================================================
+[2026-04-07 03:00:01] Conectando ao servidor LOCAL: localhost\shopcontrol9
+[2026-04-07 03:00:01] ✅ Conexão estabelecida com sucesso!
+[2026-04-07 03:00:01] Buscando Ordem da Filial 22...
+[2026-04-07 03:00:01] ✅ Ordem da Filial encontrada: 1
+[2026-04-07 03:00:01] Iniciando UPDATE 1: Produtos com média ponderada de vendas...
+[2026-04-07 03:00:01] Conexão com banco de dados encerrada
+--------------------------------------------------------------------------------
+[2026-04-08 03:00:01] ================================================================================
+[2026-04-08 03:00:01] INÍCIO DA EXECUÇÃO - Atualização de Estoque Mínimo e Ideal
+[2026-04-08 03:00:01] Filial: 22
+[2026-04-08 03:00:01] ================================================================================
+[2026-04-08 03:00:01] Conectando ao servidor LOCAL: localhost\shopcontrol9
+[2026-04-08 03:00:01] ✅ Conexão estabelecida com sucesso!
+[2026-04-08 03:00:01] Buscando Ordem da Filial 22...
+[2026-04-08 03:00:01] ✅ Ordem da Filial encontrada: 1
+[2026-04-08 03:00:01] Iniciando UPDATE 1: Produtos com média ponderada de vendas...
+[2026-04-08 03:00:01] Conexão com banco de dados encerrada
+--------------------------------------------------------------------------------
+[2026-04-09 03:00:01] ================================================================================
+[2026-04-09 03:00:01] INÍCIO DA EXECUÇÃO - Atualização de Estoque Mínimo e Ideal
+[2026-04-09 03:00:01] Filial: 22
+[2026-04-09 03:00:01] ================================================================================
+[2026-04-09 03:00:01] Conectando ao servidor LOCAL: localhost\shopcontrol9
+[2026-04-09 03:00:01] ✅ Conexão estabelecida com sucesso!
+[2026-04-09 03:00:01] Buscando Ordem da Filial 22...
+[2026-04-09 03:00:01] ✅ Ordem da Filial encontrada: 1
+[2026-04-09 03:00:01] Iniciando UPDATE 1: Produtos com média ponderada de vendas...
+[2026-04-09 03:00:01] Conexão com banco de dados encerrada
+--------------------------------------------------------------------------------
+[2026-04-10 03:00:01] ================================================================================
+[2026-04-10 03:00:01] INÍCIO DA EXECUÇÃO - Atualização de Estoque Mínimo e Ideal
+[2026-04-10 03:00:01] Filial: 22
+[2026-04-10 03:00:01] ================================================================================
+[2026-04-10 03:00:01] Conectando ao servidor LOCAL: localhost\shopcontrol9
+[2026-04-10 03:00:01] ✅ Conexão estabelecida com sucesso!
+[2026-04-10 03:00:01] Buscando Ordem da Filial 22...
+[2026-04-10 03:00:01] ✅ Ordem da Filial encontrada: 1
+[2026-04-10 03:00:01] Iniciando UPDATE 1: Produtos com média ponderada de vendas...
+[2026-04-10 03:00:01] Conexão com banco de dados encerrada
+--------------------------------------------------------------------------------
+[2026-04-10 15:20:44] ================================================================================
+[2026-04-10 15:20:44] INÍCIO DA EXECUÇÃO - Atualização de Estoque Mínimo e Ideal
+[2026-04-10 15:20:44] Filial: 22
+[2026-04-10 15:20:44] ================================================================================
+[2026-04-10 15:20:44] Conectando ao servidor LOCAL: localhost\shopcontrol9
+[2026-04-10 15:20:44] ✅ Conexão estabelecida com sucesso!
+[2026-04-10 15:20:44] Buscando Ordem da Filial 22...
+[2026-04-10 15:20:44] ✅ Ordem da Filial encontrada: 1
+[2026-04-10 15:20:44] Iniciando UPDATE 1: Produtos com média ponderada de vendas...
+[2026-04-10 15:20:44] Conexão com banco de dados encerrada
+--------------------------------------------------------------------------------
+[2026-04-10 15:21:21] ================================================================================
+[2026-04-10 15:21:21] INÍCIO DA EXECUÇÃO - Atualização de Estoque Mínimo e Ideal
+[2026-04-10 15:21:21] Filial: 22
+[2026-04-10 15:21:21] ================================================================================
+[2026-04-10 15:21:21] Conectando ao servidor LOCAL: localhost\shopcontrol9
+[2026-04-10 15:21:21] ✅ Conexão estabelecida com sucesso!
+[2026-04-10 15:21:21] Buscando Ordem da Filial 22...
+[2026-04-10 15:21:21] ✅ Ordem da Filial encontrada: 1
+[2026-04-10 15:21:21] Iniciando UPDATE 1: Produtos com média ponderada de vendas...
+[2026-04-10 15:21:21] Conexão com banco de dados encerrada
+--------------------------------------------------------------------------------
+[2026-04-10 15:21:24] ================================================================================
+[2026-04-10 15:21:24] INÍCIO DA EXECUÇÃO - Atualização de Estoque Mínimo e Ideal
+[2026-04-10 15:21:24] Filial: 22
+[2026-04-10 15:21:24] ================================================================================
+[2026-04-10 15:21:24] Conectando ao servidor LOCAL: localhost\shopcontrol9
+[2026-04-10 15:21:24] ✅ Conexão estabelecida com sucesso!
+[2026-04-10 15:21:24] Buscando Ordem da Filial 22...
+[2026-04-10 15:21:24] ✅ Ordem da Filial encontrada: 1
+[2026-04-10 15:21:24] Iniciando UPDATE 1: Produtos com média ponderada de vendas...
+[2026-04-10 15:21:24] Conexão com banco de dados encerrada
+--------------------------------------------------------------------------------
+[2026-04-10 15:23:16] ================================================================================
+[2026-04-10 15:23:16] INÍCIO DA EXECUÇÃO - Atualização de Estoque Mínimo e Ideal
+[2026-04-10 15:23:16] Filial: 22
+[2026-04-10 15:23:16] ================================================================================
+[2026-04-10 15:23:16] Conectando ao servidor LOCAL: localhost\shopcontrol9
+[2026-04-10 15:23:16] ✅ Conexão estabelecida com sucesso!
+[2026-04-10 15:23:16] Buscando Ordem da Filial 22...
+[2026-04-10 15:23:16] ✅ Ordem da Filial encontrada: 1
+[2026-04-10 15:23:16] Iniciando UPDATE 1: Produtos com média ponderada de vendas...
+[2026-04-10 15:23:28] ✅ UPDATE 1 concluído: 10754 registros atualizados
+[2026-04-10 15:23:28] Iniciando UPDATE 2: Produtos novos (cadastrados há menos de 30 dias)...
+[2026-04-10 15:23:28] ✅ UPDATE 2 concluído: 34 registros atualizados
+[2026-04-10 15:23:28] Iniciando UPDATE 3: Produtos sem movimentação nos últimos 730 dias...
+[2026-04-10 15:23:53] ✅ UPDATE 3 concluído: 13988 registros atualizados
+[2026-04-10 15:23:53] ✅ COMMIT realizado com sucesso
+[2026-04-10 15:23:53] ================================================================================
+[2026-04-10 15:23:53] RESUMO DA EXECUÇÃO:
+[2026-04-10 15:23:53]   - UPDATE 1 (Média ponderada): 10754 produtos atualizados
+[2026-04-10 15:23:53]   - UPDATE 2 (Produtos novos): 34 produtos atualizados
+[2026-04-10 15:23:53]   - UPDATE 3 (Sem movimentação): 13988 produtos atualizados
+[2026-04-10 15:23:53]   - TOTAL GERAL: 24776 produtos atualizados
+[2026-04-10 15:23:53] ✅ EXECUÇÃO CONCLUÍDA COM SUCESSO!
+[2026-04-10 15:23:53] ================================================================================
+--------------------------------------------------------------------------------
+[2026-04-10 15:23:53] Conexão com banco de dados encerrada
